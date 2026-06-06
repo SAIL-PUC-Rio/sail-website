@@ -1,0 +1,7 @@
+# Ignore node_modules if you add any packages later
+node_modules/
+.DS_Store
+.env
+*.log
+dist/
+build/

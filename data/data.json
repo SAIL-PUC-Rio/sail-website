@@ -1,0 +1,984 @@
+{
+  "site": {
+    "title": "SAIL PUC-Rio",
+    "description": "Software & AI Engineering Lab from PUC-Rio.",
+    "language": "en"
+  },
+  "header": {
+    "topContactLabel": "Contact us",
+    "languageLabel": "EN",
+    "institution": {
+      "name": "Institution",
+      "url": "index.html#top",
+      "logo": "./images/Logo.png"
+    }
+  },
+  "navigation": [
+    {
+      "label": "ABOUT",
+      "url": "index.html#about"
+    },
+    {
+      "label": "RESEARCH",
+      "url": "index.html#specializations"
+    },
+    {
+      "label": "PUBLICATIONS",
+      "url": "index.html#publications"
+    },
+    {
+      "label": "SERVICES",
+      "url": "index.html#services"
+    },
+    {
+      "label": "COORDINATION",
+      "url": "index.html#coordination"
+    },
+    {
+      "label": "MEET OUR TEAM",
+      "url": "team.html"
+    }
+  ],
+  "heroSlides": [
+    {
+      "title": "Meet SAIL",
+      "text": "A newly launched PUC-Rio lab dedicated to research, innovation, and talent development in Software Engineering and AI Engineering.",
+      "image": "./images/Meet SAIL.jpeg"
+    },
+    {
+      "title": "Software &amp; AI Engineering Lab",
+      "text": "We produce knowledge and train people to build software and AI systems that are more effective, reliable, and responsible.",
+      "image": "./images/SAIL Lab.jpeg"
+    },
+    {
+      "title": "Tradition and Excellence",
+      "text": "SAIL is part of PUC-Rio's Graduate Program in Informatics, an internationally recognized program with CAPES 7, the highest evaluation level.",
+      "image": "./images/PUC-Rio.jpg"
+    },
+    {
+      "title": "Scientific Leadership",
+      "text": "SAIL is led by Marcos Kalinowski, an internationally recognized Software Engineering researcher with strong experience in industry-driven R&amp;D.",
+      "image": "./images/Leadership.jpeg"
+    },
+    {
+      "title": "Research Areas",
+      "text": "We investigate Human Aspects, AI Engineering, Experimental Software Engineering, and Artificial Intelligence for Software Engineering.",
+      "image": "./images/Research Areas.jpeg"
+    },
+    {
+      "title": "Collaboration Network",
+      "text": "SAIL connects PUC-Rio, ISERN, Instituto Kunumi, leading universities, research centers, and industry partners in impactful projects.",
+      "image": "./images/Collaboration Network.jpeg"
+    },
+    {
+      "title": "Follow SAIL",
+      "text": "Follow our research, projects, and contributions to the future of Software Engineering and Artificial Intelligence.",
+      "image": "./images/Team.jpeg"
+    }
+  ],
+  "about": {
+    "title": "About",
+    "columns": [
+      "<p><strong>SAIL (Software &amp; AI Engineering Lab)</strong> is a research lab at <strong>PUC-Rio</strong> dedicated to advancing <em>Software and AI Engineering</em> through rigorous, impactful, and industry-connected research. We investigate how to build, evaluate, and improve software and AI-intensive systems, with interests spanning <em>AI Engineering</em>, <em>Empirical Software Engineering</em>, and <em>human aspects of software development</em>. By connecting scientific rigor with real-world needs, SAIL seeks to generate knowledge, methods, and practical solutions that help shape the future of software and AI systems in academia and industry.</p>",
+      "<p> <strong>SAIL</strong> brings together researchers and students interested in advancing the engineering of software and AI-intensive systems. We study how these systems are designed, developed, evaluated, and improved, with a strong focus on quality, evidence-based research, and real-world relevance. Our goal is to build knowledge and solutions that not only move research forward, but also help address practical challenges faced by industry and society. In doing so, SAIL serves as a space for collaboration, innovation, and the training of the next generation of software and AI engineering researchers.</p>"
+    ]
+  },
+  "specializationsTitle": "Research Areas",
+  "specializations": [
+    {
+      "title": "AI Engineering",
+      "description": "<p>Focuses on the methods, processes, and practices needed to design, develop, evaluate, deploy, and maintain AI-based systems in a reliable and responsible way. It addresses the full lifecycle of AI-intensive systems, from data and models to monitoring, quality, and continuous improvement in real-world settings.</p>",
+      "images": [
+        {
+          "src": "./images/AI Engineering.png",
+          "alt": "AI Engineering"
+        }
+      ]
+    },
+    {
+      "title": "AI for Software Engineering",
+      "description": "<p>Explores how AI techniques can support software engineering activities, such as requirements analysis, coding, testing, maintenance, and developer productivity. This area investigates how intelligent tools and models can enhance development processes and help teams build software more effectively and efficiently.</p>",
+      "images": [
+        {
+          "src": "./images/AI4SE.webp",
+          "alt": "AI for Software Engineering"
+        }
+      ]
+    },
+    {
+      "title": "Empirical Software Engineering",
+      "description": "<p>Investigates software engineering through observation, experimentation, and evidence, helping researchers and practitioners better understand how software is built in real-world settings. Its goal is to generate insights grounded in data and practice, supporting more informed methods, decisions, and improvements.</p>",
+      "images": [
+        {
+          "src": "./images/EMSE.png",
+          "alt": "Empirical Software Engineering"
+        }
+      ]
+    },
+    {
+      "title": "Human Aspects of Software Engineering",
+      "description": "<p>Examines the people side of software engineering, including collaboration, communication, decision-making, teamwork, and the ways humans interact with processes and technologies. It highlights the social and organizational dimensions that influence how software and AI systems are conceived, developed, and used.</p>",
+      "images": [
+        {
+          "src": "./images/Human Aspects.avif",
+          "alt": "Human Aspects of Software Engineering"
+        }
+      ]
+    }
+  ],
+  "servicesTitle": "Services",
+  "coordinationTitle": "Coordination",
+  "coordination": {
+    "title": "Coordination",
+    "coordinator": {
+      "photo": "./images/people/Kalinowski.jpg",
+      "bio": ""
+    },
+    "description": "<p style='margin-top: 0px;'><strong>Marcos Kalinowski</strong> is the coordinator of SAIL PUC-Rio and a faculty member at the Department of Informatics at PUC-Rio. With over 15 years of experience in software engineering research, he leads initiatives in empirical software engineering, AI engineering, and human aspects of software development.</p><p><strong>SAIL Coordination</strong> ensures that our research, partnerships, and collaborative initiatives operate smoothly while maintaining the highest standards of academic rigor and real-world impact. Under his leadership, the coordination team works to connect our research community with industry partners, foster collaboration among researchers and students, and translate our findings into practical solutions that benefit both academia and industry.</p>"
+  },
+  "services": [
+    {
+      "title": "Consulting",
+      "description": "We provide expert guidance on software and AI engineering challenges, helping organizations make better technical and strategic decisions.",
+      "image": "./images/Consulting.jpeg"
+    },
+    {
+      "title": "Training",
+      "description": "We offer hands-on training sessions on technologies, practices, and methodologies, tailored to the needs of teams and organizations.",
+      "image": "./images/Training.jpeg"
+    },
+    {
+      "title": "R&D Partnerships",
+      "description": "We collaborate with industry and academia on research and development initiatives that connect scientific rigor with real-world impact.",
+      "image": "./images/RD.jpeg"
+    }
+  ],
+  "publicationsTitle": "Scientific Publications",
+  "publicationsMoreUrl": "publications.html",
+  "publications": [
+    {
+      "title": "Statistical Confidence in Functional Correctness: An Approach for AI Product Functional Correctness Evaluation",
+      "authors": "Albertini, W.; Araújo, M. C.; Araújo, J. C.; Alves, A. P. S.; and Kalinowski, M.",
+      "year": "2026",
+      "venue": "IEEE/ACM 5th International Conference on AI Engineering (CAIN)",
+      "url": "https://www-di.inf.puc-rio.br/~kalinowski//publications/AlbertiniAAAK26.pdf"
+    },
+    {
+      "title": "A Quasi-Experimental Evaluation of Coaching to Mitigate the Impostor Phenomenon in Early-Career Software Engineers",
+      "authors": "Guenes, P.; Leite, J.; Tomaz, R.; Araújo, A. A.; Natividade, J.; Baldassarre, T.; and Kalinowski, M.",
+      "year": "2026",
+      "venue": "IEEE/ACM 19th International Conference on Cooperative and Human Aspects of Software Engineering (CHASE)",
+      "url": "https://www-di.inf.puc-rio.br/~kalinowski//publications/GuenesLTANBK26.pdf"
+    },
+    {
+      "title": "Naming the Pain in machine learning-enabled systems engineering.",
+      "authors": "Kalinowski, M.; Mendez, D.; Giray, G.; Santos Alves, A. P.; Azevedo, K.; Escovedo, T.; Villamizar, H.; Lopes, H.; Baldassarre, T.; Wagner, S.; Biffl, S.; Musil, J.; Felderer, M.; Lavesson, N.; and Gorschek, T",
+      "year": "2025",
+      "venue": "Information and Software Technology Journal (IST)",
+      "url": "https://www-di.inf.puc-rio.br/~kalinowski//publications/KalinowskiEtAl25.pdf"
+    },
+    {
+      "title": "Industrial Practices of Requirements Engineering for ML-Enabled Systems in Brazil: An Extended Analysis",
+      "authors": "Alves, A. P. S.; Kalinowski, M.; Mendez, D.; Villamizar, H.; Escovedo, T.; and Lopes, H.",
+      "year": "2025",
+      "venue": "Journal of Software Engineering Research and Development (JSERD)",
+      "url": "https://www-di.inf.puc-rio.br/~kalinowski//publications/AlvesKMVEL25.pdf"
+    },
+    {
+      "title": "Experiences Applying Lean R&D in Industry-Academia Collaboration Projects.",
+      "authors": "Kalinowski, M.; Romao, L.; Rodrigues, A.; Barbosa, C.; Villamizar, H.; Barbosa, S. D.; and Lopes, H.",
+      "year": "2025",
+      "venue": "7th International Conference on Software Quality, Software Quality Days (SWQD)",
+      "url": "https://www-di.inf.puc-rio.br/~kalinowski//publications/KalinowskiRRBVBL25.pdf"
+    },
+    {
+      "title": "Identifying concerns when specifying machine learning-enabled systems: A perspective-based approach.",
+      "authors": "Villamizar, H.; Kalinowski, M.; Lopes, H.; and Mendez, D.",
+      "year": "2024",
+      "venue": "Journal of Systems and Software (JSS)",
+      "url": "https://www-di.inf.puc-rio.br/~kalinowski//publications/VillamizarKLM24.pdf"
+    }
+  ],
+  "newsTitle": "News",
+  "newsMoreUrl": "https://example.com/news",
+  "news": [
+    {
+      "title": "News item title goes here",
+      "excerpt": "Use this area for announcements, event participation, collaborations, achievements, or lab updates.",
+      "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80",
+      "url": "https://example.com/news/1"
+    },
+    {
+      "title": "Another update or event summary",
+      "excerpt": "The card style follows the reference layout but uses a much simpler markup and a horizontal scroll layout instead of a JS-heavy slider library.",
+      "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1200&q=80",
+      "url": "https://example.com/news/2"
+    },
+    {
+      "title": "Recognition, visit, or publication announcement",
+      "excerpt": "Keep this excerpt short so the cards remain visually balanced.",
+      "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80",
+      "url": "https://example.com/news/3"
+    },
+    {
+      "title": "News item title goes here",
+      "excerpt": "Use this area for announcements, event participation, collaborations, achievements, or lab updates.",
+      "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80",
+      "url": "https://example.com/news/1"
+    },
+    {
+      "title": "Another update or event summary",
+      "excerpt": "The card style follows the reference layout but uses a much simpler markup and a horizontal scroll layout instead of a JS-heavy slider library.",
+      "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1200&q=80",
+      "url": "https://example.com/news/2"
+    },
+    {
+      "title": "Recognition, visit, or publication announcement",
+      "excerpt": "Keep this excerpt short so the cards remain visually balanced.",
+      "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80",
+      "url": "https://example.com/news/3"
+    }
+  ],
+  "contact": {
+    "eyebrow": "Questions?",
+    "title": "Get in touch with us.",
+    "primaryAction": {
+      "label": "Talk to us",
+      "url": "mailto:kalinowski@inf.puc-rio.br"
+    },
+    "blocks": [
+      {
+        "title": "Contacts",
+        "type": "text",
+        "lines": [
+          {
+            "text": "E-mail: kalinowski@inf.puc-rio.br",
+            "url": "mailto:kalinowski@inf.puc-rio.br"
+          },
+          {
+            "text": "Phone: +55 (21) 3527-1500 (+4337)",
+            "url": "tel:+552135271500"
+          }
+        ]
+      },
+      {
+        "title": "Address",
+        "type": "text",
+        "lines": [
+          {
+            "text": "Rua Marquês de São Vicente, 225 | Edifício RDC | 5o Andar"
+          },
+          {
+            "text": "Rio de Janeiro - RJ - Brasil"
+          },
+          {
+            "text": "22451-900"
+          }
+        ]
+      },
+      {
+        "title": "Social Media",
+        "type": "links",
+        "items": [
+          {
+            "label": "Instagram",
+            "logo": "./images/Instagram.png",
+            "url": "https://www.instagram.com/sail_pucrio/?hl=pt-br"
+          },
+          {
+            "label": "LinkedIn",
+            "logo": "./images/LinkedIn.png",
+            "url": "https://www.linkedin.com/company/software-ai-engineering-lab/"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "logo": "./images/Logo.png",
+    "logoAlt": "Footer logo",
+    "description": "SAIL is a research lab at PUC-Rio focused on advancing software and AI engineering through rigorous, impactful, and industry-connected research.",
+    "copyright": "© 2026 Software & AI Engineering Lab PUC-Rio. All rights reserved.",
+    "partners": [
+      {
+        "name": "Kunumi",
+        "logo": "./images/Kunumi.png"
+      },
+      {
+        "name": "CNPQ",
+        "logo": "./images/CNPQ.png"
+      },
+      {
+        "name": "CAPES",
+        "logo": "./images/CAPES.png"
+      },
+      {
+        "name": "FAPERJ",
+        "logo": "./images/FAPERJ.png"
+      }
+    ]
+  },
+    "teamPage": {
+    "title": "Meet our Team",
+    "groups": [
+      {
+        "title": "Coordination",
+        "members": [
+          {
+            "name": "Marcos Kalinowski",
+            "role": "Lab Coordinator",
+            "bio": "",
+            "photo": "./images/people/Kalinowski.jpg",
+            "links": [
+              {
+                "label": "Google Scholar",
+                "url": "https://scholar.google.com/citations?user=tKCYoHsAAAAJ&hl=pt-BR"
+              },
+              {
+                "label": "Lattes",
+                "url": "http://lattes.cnpq.br/1095304607841635"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/kalinowski/"
+              },
+              {
+                "label": "Website",
+                "url": "https://www-di.inf.puc-rio.br/~kalinowski/index.html"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Post-docs",
+        "members": [
+          {
+            "name": "Allysson Allex Araújo",
+            "role": "Post-doctoral Researcher",
+            "bio": "",
+            "photo": "./images/people/Allysson Allex Araújo.jpg",
+            "links": [
+              {
+                "label": "Google Scholar",
+                "url": "https://scholar.google.com.br/citations?user=ludS9IAAAAAJ"
+              },
+              {
+                "label": "GitHub",
+                "url": "https://github.com/allyssonallex"
+              },
+              {
+                "label": "Lattes",
+                "url": "http://lattes.cnpq.br/1768955171390815"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/allyssonaraujo"
+              },
+              {
+                "label": "Website",
+                "url": "https://allyssonallex.github.io/"
+              }
+            ]
+          },
+          {
+            "name": "Eduardo Kinder Almentero",
+            "role": "Post-doctoral Researcher",
+            "bio": "",
+            "photo": "./images/people/Eduardo Kinder Almentero.jpg",
+            "links": [
+              {
+                "label": "Google Scholar",
+                "url": "https://scholar.google.com/citations?user=4cxrinUAAAAJ&hl=pt-BR"
+              },
+              {
+                "label": "GitHub",
+                "url": "https://github.com/ekalmentero"
+              },
+              {
+                "label": "Lattes",
+                "url": "lattes.cnpq.br/8851661551732110"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "linkedin.com/in/almentero"
+              },
+              {
+                "label": "Website",
+                "url": "https://ekalmentero.github.io/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "PhD",
+        "members": [
+          {
+            "name": "Anrafel Fernandes Pereira",
+            "role": "PhD Candidate",
+            "bio": "",
+            "photo": "./images/people/Anrafael Fernandes.jpg",
+            "links": [
+              {
+                "label": "Google Scholar",
+                "url": "https://scholar.google.com.br/citations?hl=pt-BR&user=V3zIirAAAAAJ"
+              },
+              {
+                "label": "GitHub",
+                "url": "https://github.com/Anrafel"
+              },
+              {
+                "label": "Lattes",
+                "url": "http://lattes.cnpq.br/6711819845096632"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/anrafel-fernandes-75280720/"
+              }
+            ]
+          },
+          {
+            "name": "Antonio Pedro Santos Alves",
+            "role": "PhD Candidate",
+            "bio": "",
+            "photo": "./images/people/Antonio Pedro Santos Alves.jpeg",
+            "links": [
+              {
+                "label": "Google Scholar",
+                "url": "https://scholar.google.com/citations?user=mhgIP2EAAAAJ&hl=pt-BR"
+              },
+              {
+                "label": "GitHub",
+                "url": "https://github.com/antoniopedro98"
+              },
+              {
+                "label": "Lattes",
+                "url": "http://lattes.cnpq.br/2385985653078595"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/antonio-pedro-santos-alves/"
+              }
+            ]
+          },
+          {
+            "name": "Bruno Ferraz",
+            "role": "PhD Candidate",
+            "bio": "",
+            "photo": "./images/people/Bruno Ferraz.jpg",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/bruno-ferraz-pro/"
+              }
+            ]
+          },
+          {
+            "name": "Eduardo Gonçalves Motta",
+            "role": "PhD Student",
+            "bio": "",
+            "photo": "./images/people/Eduardo Gonçalves Motta.jpg",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/eduardo-motta-57146b16a/"
+              }
+            ]
+          },
+          {
+            "name": "Eduardo Zimelewicz",
+            "role": "PhD Student",
+            "bio": "",
+            "photo": "./images/people/Eduardo Zimelewicz.png",
+            "links": [
+              {
+                "label": "Google Scholar",
+                "url": "https://scholar.google.com/citations?user=2qRkFUUAAAAJ&hl=en"
+              },
+              {
+                "label": "GitHub",
+                "url": "https://github.com/EduardoZimelewicz"
+              },
+              {
+                "label": "Lattes",
+                "url": "http://lattes.cnpq.br/9980561291947936"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/eduardo-zimelewicz-89a12683/"
+              }
+            ]
+          },
+          {
+            "name": "José Matheus Carvalho Boaro",
+            "role": "PhD Student",
+            "bio": "",
+            "photo": "./images/people/José Matheus Carvalho Boaro.jpg",
+            "links": [
+              {
+                "label": "Google Scholar",
+                "url": "https://scholar.google.com/citations?user=PuX4YrwAAAAJ&hl=en"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/matheusboaro?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+              }
+            ]
+          },
+          {
+            "name": "Lucas Cordeiro Romão",
+            "role": "PhD Candidate",
+            "bio": "",
+            "photo": "./images/people/Lucas Cordeiro Romão.jpg",
+            "links": [
+              {
+                "label": "Google Scholar",
+                "url": "https://scholar.google.com/citations?user=PngF9CQAAAAJ&hl=en"
+              },
+              {
+                "label": "GitHub",
+                "url": "https://github.com/lcromao"
+              },
+              {
+                "label": "Lattes",
+                "url": "http://lattes.cnpq.br/0173761286232244"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "linkedin.com/in/lcromao"
+              }
+            ]
+          },
+          {
+            "name": "Mauro Marcelino de Oliveira",
+            "role": "PhD Student",
+            "bio": "",
+            "photo": "./images/people/Mauro Marcelino de Oliveira.jpg",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/mauro-marcelino-de-oliveira-436399265/"
+              }
+            ]
+          },
+          {
+            "name": "Paloma Guenes",
+            "role": "PhD Student",
+            "bio": "",
+            "photo": "./images/people/Paloma Guenes Costa.jpg",
+            "links": [
+              {
+                "label": "Google Scholar",
+                "url": "https://scholar.google.com/citations?user=Tf7djMAAAAAJ&hl=pt-PT"
+              },
+              {
+                "label": "Lattes",
+                "url": "http://lattes.cnpq.br/7326010081436715"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/palomaguenes"
+              }
+            ]
+          },
+          {
+            "name": "Rafael da Silva Tomaz",
+            "role": "PhD Student",
+            "bio": "",
+            "photo": "./images/people/Rafael da Silva Tomaz.jpg",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/rafaelstomaz/"
+              }
+            ]
+          },
+          {
+            "name": "Raphael Oliveira Cabral",
+            "role": "PhD Student",
+            "bio": "",
+            "photo": "./images/people/Raphael Oliveira Cabral.jpg",
+            "links": [
+              {
+                "label": "Google Scholar",
+                "url": "https://scholar.google.com.br/citations?user=KEMMzwkAAAAJ&hl=pt-BR"
+              },
+              {
+                "label": "GitHub",
+                "url": "https://github.com/rcabral"
+              },
+              {
+                "label": "Lattes",
+                "url": "http://lattes.cnpq.br/6061262925044733"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "www.linkedin.com/in/raphael-cabral-59876b13"
+              }
+            ]
+          },
+          {
+            "name": "Silvio Alonso",
+            "role": "PhD Candidate",
+            "bio": "",
+            "photo": "./images/people/Silvio Alonso.jpg",
+            "links": [
+              {
+                "label": "Google Scholar",
+                "url": "https://scholar.google.com/citations?user=a1kkuNoAAAAJ&hl=en&oi=sra"
+              },
+              {
+                "label": "GitHub",
+                "url": "https://github.com/silvioalonso"
+              },
+              {
+                "label": "Lattes",
+                "url": "http://lattes.cnpq.br/3095127742493644"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/silvioalonso/"
+              }
+            ]
+          },
+          {
+            "name": "Tatiane Ornelas Martins Alves",
+            "role": "PhD Student",
+            "bio": "",
+            "photo": "./images/people/Tatiane Ornelas Martins Alves.jpg",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/tatiane-ornelas/"
+              }
+            ]
+          },
+          {
+            "name": "Wallace Albertini Boquimpani",
+            "role": "PhD Student",
+            "bio": "",
+            "photo": "./images/people/Wallace Albertini Boquimpani.jpg",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/wallace-albertini/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "MSc",
+        "members": [
+          {
+            "name": "Antônio Brandão Lima",
+            "role": "MSc Student",
+            "bio": "",
+            "photo": "./images/people/Antônio Brandão Lima.png",
+            "links": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/toniobrandao"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/antoniobrandaolima/"
+              }
+            ]
+          },
+          {
+            "name": "Bernardo Bulgarelli",
+            "role": "MSc Student",
+            "bio": "",
+            "photo": "./images/people/Bernardo Bulgarelli.jpg",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/bernardobulgarelli-b610ab189/"
+              }
+            ]
+          },
+          {
+            "name": "Gabriel Moreira Mariquito de Sousa",
+            "role": "MSc Student",
+            "bio": "",
+            "photo": "./images/people/Gabriel Moreira Mariquito de Sousa.jpg",
+            "links": [
+              {
+                "label": "Google Scholar",
+                "url": "https://scholar.google.com.br/citations?user=Lq1m3KQAAAAJ&hl=pt-BR"
+              },
+              {
+                "label": "GitHub",
+                "url": "https://github.com/gabrielmariquito"
+              },
+              {
+                "label": "Lattes",
+                "url": "https://lattes.cnpq.br/9003518572799104"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/gabrielmariquito/"
+              },
+              {
+                "label": "Website",
+                "url": "https://gabrielmariquito.com/"
+              }
+            ]
+          },
+          {
+            "name": "Iury Lima Rosal",
+            "role": "MSc Student",
+            "bio": "",
+            "photo": "./images/people/Iury Lima Rosal.png",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/iuryrosal/"
+              }
+            ]
+          },
+          {
+            "name": "Laura Mendonça da Glória Luz",
+            "role": "MSc Student",
+            "bio": "",
+            "photo": "./images/people/Laura Mendonça da Glória Luz.jpg",
+            "links": [
+              {
+                "label": "Lattes",
+                "url": "http://lattes.cnpq.br/9343122880643902"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/laura-mendonca-da-gloria-luz/"
+              },
+              {
+                "label": "GitHub",
+                "url": "https://github.com/l-luz"
+              }
+            ]
+          },
+          {
+            "name": "Luiz Fellipe Augusto",
+            "role": "MSc Student",
+            "bio": "",
+            "photo": "./images/people/Luiz Fellipe Augusto.jpg",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/luiz-fellipe-augusto/"
+              }
+            ]
+          },
+          {
+            "name": "Matheus Pullig Soranço de Carvalho",
+            "role": "MSc Student",
+            "bio": "",
+            "photo": "./images/people/Matheus Pullig Soranco de Carvalho.jpg",
+            "links": [
+              {
+                "label": "Google Scholar",
+                "url": "https://scholar.google.com.br/citations?user=a-HhXsYAAAAJ&hl=pt-BR"
+              },
+              {
+                "label": "GitHub",
+                "url": "https://github.com/matheussoranco"
+              },
+              {
+                "label": "Lattes",
+                "url": "https://lattes.cnpq.br/2638856314649555"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/matheus-soranço-4a8b67210?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+              },
+              {
+                "label": "Website",
+                "url": "https://polymathesblog.wordpress.com/"
+              }
+            ]
+          },
+          {
+            "name": "Paulo de Tarso Fernandes",
+            "role": "MSc Candidate",
+            "bio": "",
+            "photo": "./images/people/Paulo de Tarso Fernandes.jpg",
+            "links": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/PDTCCLF"
+              },
+              {
+                "label": "Lattes",
+                "url": "http://lattes.cnpq.br/9837202289490834"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/pdtcclf"
+              }
+            ]
+          },
+          {
+            "name": "Rodrigo Lemos Fernandes",
+            "role": "MSc Student",
+            "bio": "",
+            "photo": "./images/people/Rodrigo Lemos Fernandes.png",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/rodrigolemosdev/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Undergraduate",
+        "members": [
+          {
+            "name": "Arthur Augusto Claro Sardella",
+            "role": "Undergraduate Student",
+            "bio": "",
+            "photo": "./images/people/Arthur Augusto Claro Sardella.jpg",
+            "links": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/DoctorTangerina"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/arthursardella/"
+              }
+            ]
+          },
+          {
+            "name": "Luan Carlos Almada Braga",
+            "role": "Undergraduate Student",
+            "bio": "",
+            "photo": "./images/people/Luan Carlos Almada Braga.jpg",
+            "links": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/Lbragaa"
+              },
+              {
+                "label": "Lattes",
+                "url": "http://lattes.cnpq.br/4821319954038629"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/luan-braga-22a3b3323/"
+              }
+            ]
+          },
+          {
+            "name": "Rafaela Bessa Garcia de Oliveira",
+            "role": "Undergraduate Student",
+            "bio": "",
+            "photo": "./images/people/Rafaela Bessa Garcia de Oliveira.jpeg",
+            "links": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/bets18"
+              },
+              {
+                "label": "Lattes",
+                "url": "http://lattes.cnpq.br/3923713590090988"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/rafaelabessa/"
+              }
+            ]
+          },
+          {
+            "name": "Yasmin Machado Sandes",
+            "role": "Undergraduate Student",
+            "bio": "",
+            "photo": "./images/people/Yasmin Machado Sandes.jpg",
+            "links": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/yasmsandes"
+              },
+              {
+                "label": "Lattes",
+                "url": "https://lattes.cnpq.br/2931750025809151"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/yas-msandes/"
+              }
+            ]
+          },
+          {
+            "name": "Victória Cruz de Figueiredo",
+            "role": "Undergraduate Student",
+            "bio": "",
+            "photo": "./images/people/Victoria Cruz de Figueiredo.png",
+            "links": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/victoriacruz-py"
+              },
+              {
+                "label": "Lattes",
+                "url": "https://lattes.cnpq.br/5991872852036425"
+              },              
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/victoria-cruz-91a796356"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Former Students",
+        "members": [
+          {
+            "name": "Elena Santos",
+            "role": "Former Student",
+            "bio": "",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/elena-santos-93847/"
+              },
+              {
+                "label": "Scholar",
+                "url": "https://scholar.google.com/citations?user=elenasantos2024"
+              }
+            ]
+          },
+          {
+            "name": "Marcus López",
+            "role": "Former Student",
+            "bio": "",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/marcus-lopez-research/"
+              },
+              {
+                "label": "Scholar",
+                "url": "https://scholar.google.com/citations?user=marcuslopez2024"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "publicationsPage": {
+    "title": "Publications",
+    "intro": "The list is dynamically generated and takes a few seconds to load. It lists only accepted publications. Click on the years to collapse and use the scrollbar to navigate through the publications. Author versions of all papers are freely available by clicking on the PDF icon.",
+    "bibbase": {
+      "enabled": false,
+      "bibUrl": "",
+      "groupBy": "year",
+      "sort": "year"
+    }
+  }
+}

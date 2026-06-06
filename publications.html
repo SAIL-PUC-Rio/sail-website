@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Publications · SAIL PUC-Rio</title>
+  <meta name="description" content="Publications page for SAIL PUC-Rio." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+</head>
+<body data-page="publications">
+  <header class="site-header" id="top">
+    <div class="utility-bar">
+      <div class="container utility-bar__inner">
+        <a class="utility-link" data-bind="topContactLabel" href="index.html#contact">Contact us</a>
+        <button class="search-toggle" id="searchToggle" type="button" aria-expanded="false" aria-controls="searchBox">
+          Search
+          <span aria-hidden="true">⌕</span>
+        </button>
+        <div class="language-chip" id="languageChip">EN</div>
+      </div>
+      <div class="container search-box" id="searchBox" hidden>
+        <input id="siteSearch" type="search" placeholder="Search publications and sections..." aria-label="Search site content">
+        <div id="searchResults" class="search-results"></div>
+      </div>
+    </div>
+
+    <div class="container branding-row">
+      <div class="brand-group">
+        <a class="brand-logo-link" id="institutionLink" href="index.html#top" rel="noreferrer">
+          <img id="institutionLogo" class="brand-logo brand-logo--institution" src="./images/Logo.png" alt="Institution logo" />
+        </a>
+      </div>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="mainNav">Menu</button>
+    </div>
+
+    <div class="nav-wrap">
+      <div class="container">
+        <nav class="main-nav" id="mainNav" aria-label="Main navigation"></nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero section-spacing" id="publicationsHero">
+      <div class="container page-hero">
+        <div class="page-hero__content">
+          <h1 class="page-title" id="publicationsPageTitle">Publications</h1>
+          <p class="page-intro" id="publicationsPageIntro"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="bibbaseSection">
+      <div class="container">
+        <div class="bibbase-shell card card--soft">
+          <iframe id="bibbaseMount" src="./bibbase.html" style="width: 100%; border: none; background: transparent; min-height: 800px; display: block;" scrolling="no"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <img id="footerLogo" class="footer-logo" src="" alt="Footer logo" />
+        <p class="footer-copy" id="footerDescription"></p>
+      </div>
+      <div>
+        <h3 class="footer-heading">Quick links</h3>
+        <div class="footer-links" id="footerLinks"></div>
+      </div>
+      <div>
+        <h3 class="footer-heading">Partners</h3>
+        <div class="partner-logos" id="partnerLogos"></div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p id="footerCopyright"></p>
+    </div>
+  </footer>
+
+  <template id="navLinkTemplate"><a class="main-nav__link"></a></template>
+
+  <script src="./js/script.js" defer></script>
+</body>
+</html>

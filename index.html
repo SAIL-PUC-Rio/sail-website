@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Software & AI Engineering Lab</title>
+  <meta name="description" content="Software & AI Engineering Lab from PUC-Rio." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+</head>
+<body data-page="home">
+  <header class="site-header" id="top">
+    <div class="utility-bar">
+      <div class="container utility-bar__inner">
+        <a class="utility-link" data-bind="topContactLabel" href="index.html#contact">Contact us</a>
+        <button class="search-toggle" id="searchToggle" type="button" aria-expanded="false" aria-controls="searchBox">
+          Search
+          <span aria-hidden="true">⌕</span>
+        </button>
+        <div class="language-chip" id="languageChip">EN</div>
+      </div>
+      <div class="container search-box" id="searchBox" hidden>
+        <input id="siteSearch" type="search" placeholder="Search sections, services, publications..." aria-label="Search site content">
+        <div id="searchResults" class="search-results"></div>
+      </div>
+    </div>
+
+    <div class="container branding-row">
+      <div class="brand-group">
+        <a class="brand-logo-link" id="institutionLink" href="index.html#top" rel="noreferrer">
+          <img id="institutionLogo" class="brand-logo brand-logo--institution" src="./images/Logo.png" alt="Institution logo" />
+        </a>
+      </div>
+      <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="mainNav">
+        Menu
+      </button>
+    </div>
+
+    <div class="nav-wrap">
+      <div class="container">
+        <nav class="main-nav" id="mainNav" aria-label="Main navigation"></nav>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero-section section-spacing">
+      <div class="container">
+        <div class="hero-slider" id="heroSlider">
+          <div class="hero-slides" id="heroSlides"></div>
+          <div class="hero-dots" id="heroDots" aria-label="Hero slide navigation"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-spacing" id="about">
+      <div class="container">
+        <h2 class="section-title" data-bind="aboutTitle">About</h2>
+        <div class="about-grid">
+          <div class="rich-copy" id="aboutColumnOne"></div>
+          <div class="rich-copy" id="aboutColumnTwo"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-spacing" id="specializations">
+      <div class="container">
+        <h2 class="section-title" data-bind="specializationTitle">Research Areas</h2>
+        <div class="specialization-layout">
+          <div class="specialization-tabs" id="specializationTabs" role="tablist" aria-label="Specialization areas"></div>
+          <div class="specialization-panel card card--soft" id="specializationPanel"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-spacing" id="publications">
+      <div class="container">
+        <div class="section-heading-row">
+          <h2 class="section-title" data-bind="publicationsTitle">Scientific Publications</h2>
+          <a class="ghost-button" id="publicationsMoreLink" href="publications.html">See more</a>
+        </div>
+        <div class="content-slider-wrap">
+          <button class="slider-arrow" type="button" data-slider="publications" data-direction="prev" aria-label="Previous publications">←</button>
+          <div class="content-slider" id="publicationsSlider"></div>
+          <button class="slider-arrow" type="button" data-slider="publications" data-direction="next" aria-label="Next publications">→</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-spacing" id="services">
+      <div class="container">
+        <h2 class="section-title" data-bind="servicesTitle">Services</h2>
+        <div class="services-grid" id="servicesGrid"></div>
+      </div>
+    </section>
+
+    <section class="section-spacing" id="coordination">
+      <div class="container">
+        <h2 class="section-title" data-bind="coordinationTitle">Coordination</h2>
+        <div class="coordination-grid">
+          <div id="coordinationImage"></div>
+          <div class="rich-copy" id="coordinationDescription"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="section-spacing" id="news">
+      <div class="container">
+        <div class="section-heading-row">
+          <h2 class="section-title" data-bind="newsTitle">News</h2>
+          <a class="ghost-button" id="newsMoreLink" href="#">See more</a>
+        </div>
+        <div class="content-slider-wrap">
+          <button class="slider-arrow" type="button" data-slider="news" data-direction="prev" aria-label="Previous news">←</button>
+          <div class="content-slider" id="newsSlider"></div>
+          <button class="slider-arrow" type="button" data-slider="news" data-direction="next" aria-label="Next news">→</button>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="contact-band" id="contact">
+      <div class="container contact-band__inner">
+        <div class="contact-callout">
+          <p class="eyebrow" data-bind="contactEyebrow">Questions?</p>
+          <h2 class="contact-title" data-bind="contactTitle">Get in touch with us.</h2>
+          <a class="contact-cta" id="contactPrimaryLink" href="#">
+            <span id="contactPrimaryLabel">Talk to us</span>
+            <span aria-hidden="true">↗</span>
+          </a>
+        </div>
+        <div class="contact-details" id="contactDetails"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <img id="footerLogo" class="footer-logo" src="" alt="Footer logo" />
+        <p class="footer-copy" id="footerDescription"></p>
+      </div>
+      <div>
+        <h3 class="footer-heading">Quick links</h3>
+        <div class="footer-links" id="footerLinks"></div>
+      </div>
+      <div>
+        <h3 class="footer-heading">Partners</h3>
+        <div class="partner-logos" id="partnerLogos"></div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p id="footerCopyright"></p>
+    </div>
+  </footer>
+
+  <template id="navLinkTemplate"><a class="main-nav__link"></a></template>
+  <template id="serviceCardTemplate">
+    <article class="service-card">
+      <div class="service-card__image-wrap"><img class="service-card__image" alt=""></div>
+      <div class="service-card__content">
+        <h3 class="service-card__title"></h3>
+        <p class="service-card__text"></p>
+      </div>
+    </article>
+  </template>
+  <template id="publicationCardTemplate">
+    <a class="content-card content-card--compact" target="_blank" rel="noopener noreferrer">
+      <div class="content-card__body">
+        <h3 class="content-card__title"></h3>
+        <p class="content-card__meta"></p>
+        <p class="content-card__venue"></p>
+      </div>
+      <div class="content-card__icon">↗</div>
+    </a>
+  </template>
+  <!-- <template id="newsCardTemplate">
+    <a class="news-card" target="_blank" rel="noopener noreferrer">
+      <div class="news-card__image-wrap"><img class="news-card__image" alt=""></div>
+      <div class="news-card__content">
+        <h3 class="news-card__title"></h3>
+        <p class="news-card__excerpt"></p>
+      </div>
+    </a>
+  </template> -->
+
+  <script src="./js/script.js" defer></script>
+</body>
+</html>
