@@ -728,6 +728,15 @@ function buildSearchIndex(data) {
       searchable: `${member.name} ${member.role || ''} ${member.bio || ''} ${group.title}`.toLowerCase()
     }));
   });
+  (data.honorsAwards || []).forEach(item => items.push({ title: item.title, preview: item.description, url: 'honors-awards.html', searchable: `${item.title} ${item.description}`.toLowerCase() }));
+  (data.contributionsPage?.groups || []).forEach(group => {
+    (group.contributions || []).forEach(contribution => items.push({
+      title: contribution.title,
+      preview: contribution.description,
+      url: 'contributions.html',
+      searchable: `${contribution.title} ${contribution.description} ${group.title}`.toLowerCase()
+    }));
+  });
   return items;
 }
 
