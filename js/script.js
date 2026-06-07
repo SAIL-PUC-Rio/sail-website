@@ -28,6 +28,7 @@ async function init() {
     if (page === 'home') initHomePage(data);
     if (page === 'team') initTeamPage(data);
     if (page === 'publications') initPublicationsPage(data);
+    if (page === 'contributions') initContributionsPage(data);
 
     // Handle cross-page scrolling if a target was stored
     handleCrossPageScroll();
@@ -783,6 +784,63 @@ function stripHtml(html) {
   const div = document.createElement('div');
   div.innerHTML = html;
   return div.textContent || div.innerText || '';
+}
+
+function initContributionsPage(data) {
+  const pageData = data.contributionsPage || {};
+  renderContributionGroups(pageData.groups || []);
+}
+
+function renderContributionGroups(groups) {
+  const mount = $('#contributionGroups');
+  mount.innerHTML = '';
+
+  groups.forEach(group => {
+    const section = document.createElement('section');
+    section.className = 'contribution-group';
+    section.innerHTML = `
+      <div class="section-heading-row contribution-group__header">
+        <div>
+          <h2 class="section-title">${group.title}</h2>
+          <p class="contribution-group__description">${group.description || ''}</p>
+        </div>
+      </div>
+    `;
+
+    const grid = document.createElement('div');
+    grid.className = 'contribution-grid';
+
+    group.contributions.forEach(contribution => {
+      const article = document.createElement('article');
+      article.className = 'contribution-card card card--soft';
+      article.innerHTML = `
+        <div class="contribution-card__media">
+          <img src="${contribution.image || './images/Team.jpeg'}" alt="${contribution.title}">
+        </div>
+        <div class="contribution-card__body">
+          <h3 class="contribution-card__title">${contribution.title}</h3>
+          <p class="contribution-card__description">${contribution.description || ''}</p>
+          <div class="contribution-card__tags"></div>
+        </div>
+      `;
+
+      const tags = $('.contribution-card__tags', article);
+      (contribution.tags || []).forEach(tag => {
+        const link = document.createElement('a');
+        link.href = tag.url;
+        link.target = tag.url.startsWith('http') ? '_blank' : '_self';
+        link.rel = tag.url.startsWith('http') ? 'noopener noreferrer' : '';
+        link.className = 'contribution-card__tag';
+        link.textContent = tag.label;
+        tags.appendChild(link);
+      });
+
+      grid.appendChild(article);
+    });
+
+    section.appendChild(grid);
+    mount.appendChild(section);
+  });
 }
 
 init();

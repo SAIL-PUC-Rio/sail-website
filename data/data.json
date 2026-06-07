@@ -31,6 +31,14 @@
       "url": "index.html#services"
     },
     {
+      "label": "CONTRIBUTIONS & IMPACT",
+      "url": "contributions.html"
+    },
+    {
+      "label": "HONORS & AWARDS",
+      "url": "index.html#honors"
+    },
+    {
       "label": "COORDINATION",
       "url": "index.html#coordination"
     },
@@ -980,5 +988,129 @@
       "groupBy": "year",
       "sort": "year"
     }
+  },
+  "contributionsPage": {
+    "title": "Contributions & Impact",
+    "groups": [
+      {
+        "title": "Books",
+        "description": "Books, handbooks, textbooks, and educational materials.",
+        "contributions": [
+          {
+            "title": "Software Engineering: A Practical Approach",
+            "description": "Comprehensive textbook covering modern software engineering principles, practices, and methodologies for students and practitioners.",
+            "image": "./images/contributions/books.jpg",
+            "tags": [
+              {"label": "Springer Publishing", "url": "https://www.springer.com"}
+            ]
+          },
+          {
+            "title": "AI Engineering Handbook",
+            "description": "A practical guide to designing, developing, and maintaining AI-based systems with focus on reliability and responsibility.",
+            "image": "./images/contributions/books.jpg",
+            "tags": [
+              {"label": "ACM Books", "url": "https://dl.acm.org"}
+            ]
+          },
+          {
+            "title": "Empirical Methods in Software Engineering",
+            "description": "Educational material on empirical research methods, experimental design, and evidence-based software engineering practices.",
+            "image": "./images/contributions/books.jpg",
+            "tags": [
+              {"label": "IEEE Computer Society", "url": "https://www.computer.org"}
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Frameworks, Standards & Technologies",
+        "description": "Methods, frameworks, standards, maturity models, best practices, software/AI tools, patents, and platforms.",
+        "contributions": [
+          {
+            "title": "SAIL Quality Framework (SQF)",
+            "description": "A comprehensive framework for assessing and improving quality in software and AI systems, including maturity models and assessment tools.",
+            "image": "./images/contributions/framework.jpg",
+            "tags": [
+              {"label": "GitHub", "url": "https://github.com"},
+              {"label": "Paper", "url": "https://g1.globo.com/"}
+            ]
+          },
+          {
+            "title": "ML System Engineering Standards (MLSES)",
+            "description": "Standardized practices and guidelines for engineering machine learning-enabled systems, covering requirements, design, and validation.",
+            "image": "./images/contributions/framework.jpg",
+            "tags": [
+              {"label": "IEEE Standards", "url": "https://standards.ieee.org"},
+              {"label": "Zenodo", "url": "https://zenodo.org/"}
+            ]
+          },
+          {
+            "title": "DevOps for AI/ML Platform",
+            "description": "An integrated platform for continuous integration, deployment, and monitoring of AI/ML systems in production environments.",
+            "image": "./images/contributions/framework.jpg",
+            "tags": [
+              {"label": "Docker Hub", "url": "https://hub.docker.com"},
+              {"label": "Miro Board", "url": "https://miro.com/pt/"}
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Research Methods & Guidelines",
+        "description": "Methodological guidance and resources for conducting high-quality research.",
+        "contributions": [
+          {
+            "title": "Systematic Review Protocol for SE Research",
+            "description": "Guidelines and tools for conducting systematic literature reviews in software engineering, including planning, execution, and reporting.",
+            "image": "./images/contributions/guidelines.jpg",
+            "tags": [
+              {"label": "PRISMA Guidelines", "url": "http://www.prisma-statement.org"},
+              {"label": "Zenodo", "url": "https://zenodo.org"}
+            ]
+          },
+          {
+            "title": "Experimental Design Toolkit for AI/ML",
+            "description": "Comprehensive toolkit for designing and conducting experiments with machine learning systems, including statistical analysis guidance.",
+            "image": "./images/contributions/guidelines.jpg",
+            "tags": [
+              {"label": "Zenodo", "url": "https://zenodo.org"}
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Evidence & Knowledge Resources",
+        "description": "Surveys and evidence syntheses, including systematic reviews, mapping studies, and multivocal reviews.",
+        "contributions": [
+          {
+            "title": "Systematic Review: AI Engineering Practices in Industry",
+            "description": "Comprehensive systematic review analyzing current practices, challenges, and opportunities in AI engineering across industry sectors.",
+            "image": "./images/contributions/paper.jpg",
+            "tags": [
+              {"label": "TSE", "url": "https://ieeexplore.ieee.org"},
+              {"label": "Zenodo", "url": "https://zenodo.org"}
+            ]
+          },
+          {
+            "title": "Mapping Study: Human Aspects in Software Teams",
+            "description": "Systematic mapping study identifying key factors influencing team collaboration, communication, and well-being in software development.",
+            "image": "./images/contributions/paper.jpg",
+            "tags": [
+              {"label": "CHASE", "url": "https://www.acm.org"},
+              {"label": "Zenodo", "url": "https://zenodo.org"}
+            ]
+          },
+          {
+            "title": "Multivocal Review: ML Testing and Quality Assurance",
+            "description": "Multivocal review synthesizing knowledge from academic research and industry practice on testing and quality assurance for ML systems.",
+            "image": "./images/contributions/paper.jpg",
+            "tags": [
+              {"label": "JSS", "url": "https://www.springer.com"},
+              {"label": "Zenodo", "url": "https://zenodo.org"}
+            ]
+          }
+        ]
+      }
+    ]
   }
 }
