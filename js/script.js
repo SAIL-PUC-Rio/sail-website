@@ -93,14 +93,12 @@ function initHomePage(data) {
   $('[data-bind="coordinationTitle"]').textContent = data.coordinationTitle;
   $('[data-bind="honorsTitle"]').textContent = data.honorsAwardsPage?.title || 'Honors & Awards';
   $('[data-bind="publicationsTitle"]').textContent = data.publicationsTitle;
-  // $('[data-bind="newsTitle"]').textContent = data.newsTitle;
   $('[data-bind="contactEyebrow"]').textContent = data.contact.eyebrow;
   $('[data-bind="contactTitle"]').textContent = data.contact.title;
 
   $('#publicationsMoreLink').href = data.publicationsMoreUrl || 'publications.html';
   $('#publicationsMoreLink').classList.toggle('hidden', !data.publicationsMoreUrl);
-  // $('#newsMoreLink').href = data.newsMoreUrl || '#';
-  // $('#newsMoreLink').classList.toggle('hidden', !data.newsMoreUrl);
+  
 
   renderHero(data.heroSlides);
   renderAbout(data.about);
@@ -109,7 +107,6 @@ function initHomePage(data) {
   renderCoordination(data.coordination);
   renderHonorsSlider(data.honorsAwards);
   renderPublicationsPreview(data.publications);
-  // renderNews(data.news);
   renderContact(data.contact);
 }
 
@@ -442,22 +439,6 @@ function renderPublicationsPreview(items) {
   }));
 }
 
-function renderNews(items) {
-  const slider = $('#newsSlider');
-  const template = $('#newsCardTemplate');
-  slider.innerHTML = '';
-
-  items.forEach(item => {
-    const node = template.content.firstElementChild.cloneNode(true);
-    node.href = item.url || '#';
-    node.querySelector('.news-card__image').src = item.image;
-    node.querySelector('.news-card__image').alt = item.title;
-    node.querySelector('.news-card__title').textContent = item.title;
-    node.querySelector('.news-card__excerpt').textContent = item.excerpt;
-    slider.appendChild(node);
-  });
-}
-
 function renderContentSlider(items, sliderSelector, templateSelector, mapper) {
   const slider = $(sliderSelector);
   const template = $(templateSelector);
@@ -739,7 +720,6 @@ function buildSearchIndex(data) {
   (data.services || []).forEach(item => items.push({ title: item.title, preview: item.description, url: 'index.html#services', searchable: `${item.title} ${item.description}`.toLowerCase() }));
   (data.specializations || []).forEach(item => items.push({ title: item.title, preview: stripHtml(item.description).slice(0, 120), url: 'index.html#specializations', searchable: `${item.title} ${stripHtml(item.description)}`.toLowerCase() }));
   (data.publications || []).forEach(item => items.push({ title: item.title, preview: item.authors || '', url: item.url || 'publications.html', searchable: `${item.title} ${item.authors || ''} ${item.venue || ''}`.toLowerCase() }));
-  (data.news || []).forEach(item => items.push({ title: item.title, preview: item.excerpt, url: item.url || 'index.html#news', searchable: `${item.title} ${item.excerpt}`.toLowerCase() }));
   (data.teamPage?.groups || []).forEach(group => {
     (group.members || []).forEach(member => items.push({
       title: member.name,
@@ -774,8 +754,6 @@ function setupGlobalUi() {
         slider = $('#publicationsSlider');
       } else if (button.dataset.slider === 'honors') {
         slider = $('#honorsSlider');
-      } else {
-        slider = $('#newsSlider');
       }
       if (!slider) return;
       const direction = button.dataset.direction === 'next' ? 1 : -1;

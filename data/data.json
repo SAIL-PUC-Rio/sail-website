@@ -51,37 +51,37 @@
     {
       "title": "Meet SAIL",
       "text": "A newly launched PUC-Rio lab dedicated to research, innovation, and talent development in Software Engineering and AI Engineering.",
-      "image": "./images/Meet SAIL.jpeg"
+      "image": "./images/banner/Meet SAIL.jpeg"
     },
     {
       "title": "Software &amp; AI Engineering Lab",
       "text": "We produce knowledge and train people to build software and AI systems that are more effective, reliable, and responsible.",
-      "image": "./images/SAIL Lab.jpeg"
+      "image": "./images/banner/SAIL Lab.jpeg"
     },
     {
       "title": "Tradition and Excellence",
       "text": "SAIL is part of PUC-Rio's Graduate Program in Informatics, an internationally recognized program with CAPES 7, the highest evaluation level.",
-      "image": "./images/PUC-Rio.jpg"
+      "image": "./images/banner/PUC-Rio.jpg"
     },
     {
       "title": "Scientific Leadership",
       "text": "SAIL is led by Marcos Kalinowski, an internationally recognized Software Engineering researcher with strong experience in industry-driven R&amp;D.",
-      "image": "./images/Leadership.jpeg"
+      "image": "./images/banner/Leadership.jpeg"
     },
     {
       "title": "Research Areas",
       "text": "We investigate Human Aspects, AI Engineering, Experimental Software Engineering, and Artificial Intelligence for Software Engineering.",
-      "image": "./images/Research Areas.jpeg"
+      "image": "./images/banner/Research Areas.jpeg"
     },
     {
       "title": "Collaboration Network",
       "text": "SAIL connects PUC-Rio, ISERN, Instituto Kunumi, leading universities, research centers, and industry partners in impactful projects.",
-      "image": "./images/Collaboration Network.jpeg"
+      "image": "./images/banner/Collaboration Network.jpeg"
     },
     {
       "title": "Follow SAIL",
       "text": "Follow our research, projects, and contributions to the future of Software Engineering and Artificial Intelligence.",
-      "image": "./images/Team.jpeg"
+      "image": "./images/banner/Team.jpeg"
     }
   ],
   "about": {
@@ -98,7 +98,7 @@
       "description": "<p>Focuses on the methods, processes, and practices needed to design, develop, evaluate, deploy, and maintain AI-based systems in a reliable and responsible way. It addresses the full lifecycle of AI-intensive systems, from data and models to monitoring, quality, and continuous improvement in real-world settings.</p>",
       "images": [
         {
-          "src": "./images/AI Engineering.png",
+          "src": "./images/research_area/AI Engineering.png",
           "alt": "AI Engineering"
         }
       ]
@@ -108,7 +108,7 @@
       "description": "<p>Explores how AI techniques can support software engineering activities, such as requirements analysis, coding, testing, maintenance, and developer productivity. This area investigates how intelligent tools and models can enhance development processes and help teams build software more effectively and efficiently.</p>",
       "images": [
         {
-          "src": "./images/AI4SE.webp",
+          "src": "./images/research_area/AI4SE.webp",
           "alt": "AI for Software Engineering"
         }
       ]
@@ -118,7 +118,7 @@
       "description": "<p>Investigates software engineering through observation, experimentation, and evidence, helping researchers and practitioners better understand how software is built in real-world settings. Its goal is to generate insights grounded in data and practice, supporting more informed methods, decisions, and improvements.</p>",
       "images": [
         {
-          "src": "./images/EMSE.png",
+          "src": "./images/research_area/EMSE.png",
           "alt": "Empirical Software Engineering"
         }
       ]
@@ -128,7 +128,7 @@
       "description": "<p>Examines the people side of software engineering, including collaboration, communication, decision-making, teamwork, and the ways humans interact with processes and technologies. It highlights the social and organizational dimensions that influence how software and AI systems are conceived, developed, and used.</p>",
       "images": [
         {
-          "src": "./images/Human Aspects.avif",
+          "src": "./images/research_area/Human Aspects.avif",
           "alt": "Human Aspects of Software Engineering"
         }
       ]
@@ -148,17 +148,17 @@
     {
       "title": "Consulting",
       "description": "We provide expert guidance on software and AI engineering challenges, helping organizations make better technical and strategic decisions.",
-      "image": "./images/Consulting.jpeg"
+      "image": "./images/services/Consulting.jpeg"
     },
     {
       "title": "Training",
       "description": "We offer hands-on training sessions on technologies, practices, and methodologies, tailored to the needs of teams and organizations.",
-      "image": "./images/Training.jpeg"
+      "image": "./images/services/Training.jpeg"
     },
     {
       "title": "R&D Partnerships",
       "description": "We collaborate with industry and academia on research and development initiatives that connect scientific rigor with real-world impact.",
-      "image": "./images/RD.jpeg"
+      "image": "./images/services/RD.jpeg"
     }
   ],
   "publicationsTitle": "Scientific Publications",
@@ -207,46 +207,6 @@
       "url": "https://www-di.inf.puc-rio.br/~kalinowski//publications/VillamizarKLM24.pdf"
     }
   ],
-  "newsTitle": "News",
-  "newsMoreUrl": "https://example.com/news",
-  "news": [
-    {
-      "title": "News item title goes here",
-      "excerpt": "Use this area for announcements, event participation, collaborations, achievements, or lab updates.",
-      "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80",
-      "url": "https://example.com/news/1"
-    },
-    {
-      "title": "Another update or event summary",
-      "excerpt": "The card style follows the reference layout but uses a much simpler markup and a horizontal scroll layout instead of a JS-heavy slider library.",
-      "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1200&q=80",
-      "url": "https://example.com/news/2"
-    },
-    {
-      "title": "Recognition, visit, or publication announcement",
-      "excerpt": "Keep this excerpt short so the cards remain visually balanced.",
-      "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80",
-      "url": "https://example.com/news/3"
-    },
-    {
-      "title": "News item title goes here",
-      "excerpt": "Use this area for announcements, event participation, collaborations, achievements, or lab updates.",
-      "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=80",
-      "url": "https://example.com/news/1"
-    },
-    {
-      "title": "Another update or event summary",
-      "excerpt": "The card style follows the reference layout but uses a much simpler markup and a horizontal scroll layout instead of a JS-heavy slider library.",
-      "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=1200&q=80",
-      "url": "https://example.com/news/2"
-    },
-    {
-      "title": "Recognition, visit, or publication announcement",
-      "excerpt": "Keep this excerpt short so the cards remain visually balanced.",
-      "image": "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1200&q=80",
-      "url": "https://example.com/news/3"
-    }
-  ],
   "contact": {
     "eyebrow": "Questions?",
     "title": "Get in touch with us.",
@@ -290,12 +250,12 @@
         "items": [
           {
             "label": "Instagram",
-            "logo": "./images/Instagram.png",
+            "logo": "./images/social_media/Instagram.png",
             "url": "https://www.instagram.com/sail_pucrio/?hl=pt-br"
           },
           {
             "label": "LinkedIn",
-            "logo": "./images/LinkedIn.png",
+            "logo": "./images/social_media/LinkedIn.png",
             "url": "https://www.linkedin.com/company/software-ai-engineering-lab/"
           }
         ]
@@ -310,19 +270,19 @@
     "partners": [
       {
         "name": "Kunumi",
-        "logo": "./images/Kunumi.png"
+        "logo": "./images/footer/Kunumi.png"
       },
       {
         "name": "CNPQ",
-        "logo": "./images/CNPQ.png"
+        "logo": "./images/footer/CNPQ.png"
       },
       {
         "name": "CAPES",
-        "logo": "./images/CAPES.png"
+        "logo": "./images/footer/CAPES.png"
       },
       {
         "name": "FAPERJ",
-        "logo": "./images/FAPERJ.png"
+        "logo": "./images/footer/FAPERJ.png"
       }
     ]
   },
