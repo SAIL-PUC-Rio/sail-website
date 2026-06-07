@@ -938,7 +938,7 @@ button { cursor: pointer; }
 
 /* Contribution Cards & Grid */
 .contribution-group {
-  margin-top: 4rem;
+  margin-top: 0rem;
 }
 
 .contribution-group__header {
