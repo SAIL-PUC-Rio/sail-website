@@ -161,7 +161,7 @@
       "image": "./images/services/RD.jpeg"
     }
   ],
-  "publicationsTitle": "Scientific Publications",
+  "publicationsTitle": "Publications",
   "publicationsMoreUrl": "publications.html",
   "publications": [
     {
@@ -303,8 +303,8 @@
                 "url": "https://scholar.google.com/citations?user=tKCYoHsAAAAJ&hl=pt-BR"
               },
               {
-                "label": "Lattes",
-                "url": "http://lattes.cnpq.br/1095304607841635"
+                "label": "GitHub",
+                "url": "https://github.com/profkalinowski"
               },
               {
                 "label": "LinkedIn",
@@ -668,6 +668,26 @@
             ]
           },
           {
+            "name": "Carolina Brandão",
+            "role": "MSc Student",
+            "bio": "",
+            "photo": "./images/people/Carolina Brandao.jpeg",
+            "links": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/CarolTherstine"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/carolina-brand%C3%A3o-175a08179/"
+              },
+              {
+                "label": "Website",
+                "url": "https://therstine.com/"
+              }
+            ]
+          },
+          {
             "name": "Gabriel Moreira Mariquito de Sousa",
             "role": "MSc Student",
             "bio": "",
@@ -821,6 +841,22 @@
             ]
           },
           {
+            "name": "Henrique Carvalho e Silva",
+            "role": "Undergraduate Student",
+            "bio": "",
+            "photo": "./images/people/Henrique Carvalho e Silva.jpg",
+            "links": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/Iquecs2005"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/henrique-carvalho-a413892b0/"
+              }
+            ]
+          },
+          {
             "name": "Luan Carlos Almada Braga",
             "role": "Undergraduate Student",
             "bio": "",
@@ -841,6 +877,26 @@
             ]
           },
           {
+            "name": "Marcos Turo Fernandes Junior",
+            "role": "Undergraduate Student",
+            "bio": "",
+            "photo": "./images/people/Marcos Turo Fernandes Junior.jpeg",
+            "links": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/MTuro"
+              },
+              {
+                "label": "Lattes",
+                "url": "http://lattes.cnpq.br/4821319954038629"
+              },
+              {
+                "label": "LinkedIn",
+                "url": " https://www.linkedin.com/in/marcos-turo/"
+              }
+            ]
+          },
+          {
             "name": "Rafaela Bessa Garcia de Oliveira",
             "role": "Undergraduate Student",
             "bio": "",
@@ -857,6 +913,22 @@
               {
                 "label": "LinkedIn",
                 "url": "https://www.linkedin.com/in/rafaelabessa/"
+              }
+            ]
+          },
+          {
+            "name": "Thiago Camerato",
+            "role": "Undergraduate Student",
+            "bio": "",
+            "photo": "./images/people/Thiago Camerato.jpeg",
+            "links": [
+              {
+                "label": "GitHub",
+                "url": " https://github.com/thiagocamerato757"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/thiago-camerato-2931841a6/"
               }
             ]
           },
@@ -1080,22 +1152,23 @@
   "honorsAwards": [
     {
       "id": "award-001",
-      "title": "Best Paper Award",
-      "year": 2025,
-      "description": "Recognition for outstanding research contribution to software engineering.",
-      "image": "./images/prizes/prizes.jpg",
+      "title": "ACM Distinguished Paper Award",
+      "year": "CHASE 2026",
+      "description": "Paper \"A Quasi-Experimental Evaluation of Coaching to Mitigate the Impostor Phenomenon in Early-Career Software Engineers\".",
+      "image": "./images/prizes/2026_CHASE_DPA.jpg",
       "links": [
-        {"label": "Publication", "url": "https://example.com/paper"}
+        {"label": "ArXiv Preprint", "url": "https://arxiv.org/abs/2602.13774"}
       ]
     },
     {
       "id": "award-002",
-      "title": "Researcher Excellence Award",
-      "year": 2025,
-      "description": "Awarded for exceptional contributions to AI engineering research and industry collaboration.",
-      "image": "./images/prizes/prizes.jpg",
+      "title": "Winner of the LLM Testing Competition",
+      "year": "DeepTest@ICSE 2026",
+      "description": "\"ATLAS: Adaptive Test Learning And Selection\" was the winner for evaluating LLM-based automotive assistants on public and BMW Group prototypes.",
+      "image": "./images/prizes/2026_DeepTest_Competition.jpg",
       "links": [
-        {"label": "Details", "url": "https://example.com/award"}
+        {"label": "Summary Paper", "url": "https://dl.acm.org/doi/10.1145/3786154.3796500"},
+        {"label": "Results", "url": "https://arxiv.org/abs/2604.12615"}
       ]
     },
     {
