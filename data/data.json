@@ -134,7 +134,6 @@
       ]
     }
   ],
-  "servicesTitle": "Services",
   "coordinationTitle": "Coordination",
   "coordination": {
     "title": "Coordination",
@@ -144,6 +143,7 @@
     },
     "description": "<p style='margin-top: 0px;'><strong>Marcos Kalinowski</strong> is the coordinator of SAIL PUC-Rio and a faculty member at the Department of Informatics at PUC-Rio. With over 15 years of experience in software engineering research, he leads initiatives in empirical software engineering, AI engineering, and human aspects of software development.</p><p><strong>SAIL Coordination</strong> ensures that our research, partnerships, and collaborative initiatives operate smoothly while maintaining the highest standards of academic rigor and real-world impact. Under his leadership, the coordination team works to connect our research community with industry partners, foster collaboration among researchers and students, and translate our findings into practical solutions that benefit both academia and industry.</p>"
   },
+  "servicesTitle": "Services",
   "services": [
     {
       "title": "Consulting",
@@ -326,7 +326,7 @@
       }
     ]
   },
-    "teamPage": {
+  "teamPage": {
     "title": "Meet our Team",
     "groups": [
       {
