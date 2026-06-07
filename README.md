@@ -6,13 +6,17 @@ A lightweight static site for SAIL. Just edit a JSON file—no coding required.
 
 ```
 lab-website/
-├── index.html                 # Main HTML file
+├── index.html                 # Home page
+├── team.html                  # Team member profiles
+├── contributions.html         # Contributions & impact
+├── honors-awards.html         # Honors & awards
+├── publications.html          # Publications archive
 ├── css/
-│   └── style.css             # All styling
+│   └── styles.css            # All styling
 ├── js/
-│   └── app.js                # Application logic
+│   └── script.js             # Application logic
 ├── data/
-│   └── config.json           # Site configuration (EDIT THIS!)
+│   └── data.json             # Site configuration (EDIT THIS!)
 ├── images/                   # Place your images here
 └── README.md                 # This file
 ```
@@ -21,14 +25,18 @@ lab-website/
 
 ### Edit Content (JSON only)
 
-Open `data/config.json`—this file controls everything:
-- Site title, description, navigation
-- Banner slides, sections, news items
-- Contact details, team info
+Open `data/data.json`—this file controls everything:
+- Site title, description, and navigation tabs
+- Home page sections (about, research areas, specializations)
+- Team member profiles and groupings
+- Publications, honors, and awards data
+- Contact information
+
+No need to edit HTML files unless you want to customize the layout.
 
 ### Add Images
 
-Drop images in the `images/` folder and update the paths in `config.json`. For example:
+Drop images in the `images/` folder and update the paths in `data.json`. For example:
 ```json
 "logoUrl": "./images/logo.png",
 "imageUrl": "./images/banner.jpg"
@@ -36,7 +44,7 @@ Drop images in the `images/` folder and update the paths in `config.json`. For e
 
 ### Customize Colors
 
-Edit `css/style.css` and update the color variables at the top:
+Edit `css/styles.css` and update the color variables at the top:
 ```css
 --primary-color: #00A2AC;
 --secondary-color: #2C3E50;
@@ -45,25 +53,15 @@ Edit `css/style.css` and update the color variables at the top:
 
 Fonts, spacing, and layout settings are in the same file.
 
-### Add New Sections
+### Add Content by Pages
 
-Since the site is modular, adding a section takes three steps:
+The site is organized as separate HTML pages, each controlled by data in `data.json`:
 
-1. Add a `<section>` in `index.html` with an ID and placeholder div:
-   ```html
-   <section id="my-section" class="section">
-       <div class="container">
-           <div id="my-section-content"></div>
-       </div>
-   </section>
-   ```
-
-2. Add your data to `config.json`:
-   ```json
-   "mySection": { "title": "...", "items": [...] }
-   ```
-
-3. Create a render function in `app.js` and call it from `initializeApp()`
+- **Home page** (`index.html`): About, research areas, services
+- **Team page** (`team.html`): Organized by groups (Coordination, Post-docs, PhD, MSc, Undergraduate, etc.)
+- **Contributions** (`contributions.html`): Impact and contributions data
+- **Honors & Awards** (`honors-awards.html`): Recognition and awards
+- **Publications** (`publications.html`): Publication listings
 
 ## Configuration Reference
 
@@ -71,46 +69,30 @@ Since the site is modular, adding a section takes three steps:
 
 ```json
 {
-  "siteMeta": { ... },           // Page title & description
-  "navigation": [ ... ],          // Top navigation links
-  "header": { ... },              // Logo configuration
-  "banner": { ... },              // Carousel slides
+  "site": { ... },                // Site title & description
+  "header": { ... },              // Logo and header configuration
+  "navigation": [ ... ],          // Top navigation tabs
+  "heroSlides": [ ... ],          // Home page banner carousel
   "about": { ... },               // About section
-  "specializations": { ... },     // Areas of expertise
-  "research": { ... },            // Research topics
-  "publications": { ... },        // Publications settings
-  "news": { ... },                // News items
-  "team": { ... },                // Team section
+  "specializations": { ... },     // Research areas with tabs
+  "services": { ... },            // Services section
+  "teamPage": { ... },            // Team member profiles and groups
+  "contributionsPage": { ... },   // Contributions & impact
+  "honorsPage": { ... },          // Honors & awards
+  "publicationsPage": { ... },    // Publications data
   "contact": { ... }              // Contact information
-}
-```
-
-### Example: Adding a News Item
-
-```json
-"news": {
-  "heading": "News & Updates",
-  "items": [
-    {
-      "id": "news-1",
-      "title": "New Research Project Launched",
-      "date": "2024-03-15",
-      "excerpt": "We are excited to announce...",
-      "link": "#news-detail-1"
-    }
-  ]
 }
 ```
 
 ## Local Development
 
-1. Open `index.html` in a web browser (no server required)
-2. Edit files with any text editor
+1. Open any `.html` file in a web browser (e.g., `index.html`)
+2. Edit `data.json` with any text editor
 3. Refresh the browser to see changes
 
 For development with auto-reload, use VS Code's Live Server extension:
 - Install: "Live Server" extension in VS Code
-- Right-click `index.html` → "Open with Live Server"
+- Right-click any HTML file → "Open with Live Server"
 
 ## Deployment
 
@@ -123,59 +105,49 @@ The site is ready to deploy to any static hosting:
 
 ## Customization Checklist
 
-- [ ] Update `config.json` with your lab/organization info
-- [ ] Add images to `images/` folder
-- [ ] Update image paths in `config.json`
-- [ ] Customize colors in `css/style.css`
-- [ ] Add staff/team information
-- [ ] Set up contact form submission (requires backend)
+- [ ] Update `data.json` with your lab/organization info
+- [ ] Add images to `images/` folder and update paths in `data.json`
+- [ ] Customize colors in `css/styles.css`
+- [ ] Add team members to `teamPage` section
+- [ ] Add honors & awards to `honorsPage` section
+- [ ] Add contributions data to `contributionsPage` section
 - [ ] Update social media links
-- [ ] Test on mobile devices
+- [ ] Test all pages on mobile devices
 
 ## Common Customizations
 
-### Adjust Carousel Transition Speed
-
-Edit in `app.js`:
-```javascript
-setInterval(() => {
-    currentSlide = (currentSlide + 1) % slides.length;
-    updateCarousel();
-}, 5000);  // Change 5000 (milliseconds) to desired value
-```
-
 ### Modify Grid Layouts
 
-Edit in `css/style.css` - look for `grid-template-columns` in each section
+Edit in `css/styles.css` - look for `grid-template-columns` in each section class
 
-### Add New Navigation Item
+### Add New Navigation Tab
 
-Edit `config.json`:
-```json
-"navigation": [
-    { "label": "New Page", "href": "#new-page" },
-    ...
-]
-```
+Edit `data.json` in the `navigation` array to add a new tab and ensure the corresponding HTML file exists.
+
+### Adjust Banner Carousel Transition Speed
+
+Edit in `js/script.js` - look for the carousel interval setting and adjust the milliseconds value.
 
 ## Troubleshooting
 
 **Images not loading?**
 - Check that image files are in the `images/` folder
-- Verify paths in `config.json` use relative paths: `./images/filename.jpg`
+- Verify paths in `data.json` use relative paths: `./images/filename.jpg`
 
-**Carousel not working?**
-- Ensure `app.js` is loaded before carousel (check browser console)
-- Check that image paths are correct
+**Navigation not working?**
+- Ensure all referenced HTML files exist (team.html, contributions.html, etc.)
+- Check that URLs in `data.json` navigation match your file names
 
-**Styling issues?**
+**Page content not showing?**
 - Clear browser cache (Ctrl+Shift+Delete or Cmd+Shift+Delete)
-- Check for CSS conflicts in browser Developer Tools
+- Open browser Developer Tools (F12) and check console for errors
+- Verify JSON syntax in `data.json` is valid
 
 ## Support & Maintenance
 
-This site is designed to be maintained by anyone with basic HTML knowledge. For questions:
+This site is designed to be maintained by anyone with basic knowledge. For editing content:
 
-1. Check the "How to Use" section above
-2. Review `config.json` comments
-3. Inspect HTML/CSS/JavaScript files with comments explaining key sections
+1. Check the "Configuration Reference" section above
+2. Edit `data.json` with any text editor to update content
+3. Keep `data.json` syntax valid (use a JSON validator if unsure)
+4. Test changes in the browser before deploying
