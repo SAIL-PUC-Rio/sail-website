@@ -145,13 +145,25 @@ function renderNavigation(items) {
   if (!nav || !template) return;
   nav.innerHTML = '';
 
+  const currentPage = page; // Get page from data-page attribute
+  
   items.forEach(item => {
     const node = template.content.firstElementChild.cloneNode(true);
     node.textContent = item.label;
     node.href = item.url;
 
     const normalized = normalizePageLink(item.url);
-    if (normalized === currentPageFile()) node.classList.add('is-active');
+    
+    // Check if this link matches current page (by file or by data-page attribute)
+    const isCurrentPage = normalized === currentPageFile();
+    const isCurrentPageByAttribute = (currentPage === 'honors' && item.url.includes('honors')) ||
+                                     (currentPage === 'team' && item.url.includes('team')) ||
+                                     (currentPage === 'contributions' && item.url.includes('contributions')) ||
+                                     (currentPage === 'publications' && item.url.includes('publications'));
+    
+    if (isCurrentPage || isCurrentPageByAttribute) {
+      node.classList.add('is-active');
+    }
 
     if (isSamePageAnchor(item.url)) {
       node.addEventListener('click', (e) => {
