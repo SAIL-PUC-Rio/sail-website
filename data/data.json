@@ -1112,5 +1112,136 @@
         ]
       }
     ]
-  }
+  },
+  "honorsAwardsPage": {
+    "title": "Honors & Awards",
+    "intro": "Recognition of the achievements, contributions, and excellence of SAIL lab members."
+  },
+  "honorsAwards": [
+    {
+      "id": "award-001",
+      "title": "Best Paper Award",
+      "year": 2025,
+      "description": "Recognition for outstanding research contribution to software engineering.",
+      "image": "./images/prizes/prizes.jpg",
+      "links": [
+        {"label": "Publication", "url": "https://example.com/paper"}
+      ]
+    },
+    {
+      "id": "award-002",
+      "title": "Researcher Excellence Award",
+      "year": 2025,
+      "description": "Awarded for exceptional contributions to AI engineering research and industry collaboration.",
+      "image": "./images/prizes/prizes.jpg",
+      "links": [
+        {"label": "Details", "url": "https://example.com/award"}
+      ]
+    },
+    {
+      "id": "award-003",
+      "title": "Student Research Prize",
+      "year": 2024,
+      "description": "Recognition for innovative research work by graduate students in empirical software engineering.",
+      "image": "./images/prizes/prizes.jpg",
+      "links": [
+        {"label": "View Research", "url": "https://example.com/research"},
+        {"label": "GitHub", "url": "https://github.com"}
+      ]
+    },
+    {
+      "id": "award-004",
+      "title": "Innovation in AI Engineering",
+      "year": 2024,
+      "description": "Award for developing novel methodologies and tools for AI system engineering and evaluation.",
+      "image": "./images/prizes/prizes.jpg",
+      "links": [
+        {"label": "Tool Repository", "url": "https://github.com"},
+        {"label": "Paper", "url": "https://example.com/paper"}
+      ]
+    },
+    {
+      "id": "award-005",
+      "title": "Best Collaboration Award",
+      "year": 2024,
+      "description": "Recognition of outstanding industry-academia partnership and research collaboration.",
+      "image": "./images/prizes/prizes.jpg",
+      "links": [
+        {"label": "Project Page", "url": "https://example.com/project"}
+      ]
+    },
+    {
+      "id": "award-006",
+      "title": "Mentor of the Year",
+      "year": 2023,
+      "description": "Awarded to faculty members demonstrating exceptional mentorship and guidance to students.",
+      "image": "./images/prizes/prizes.jpg",
+      "links": [
+        {"label": "Team", "url": "team.html"}
+      ]
+    },
+    {
+      "id": "award-007",
+      "title": "Industry Innovation Partnership",
+      "year": 2023,
+      "description": "Recognition for establishing and maintaining productive long-term partnerships with industry organizations in software engineering.",
+      "image": "./images/prizes/prizes.jpg",
+      "links": [
+        {"label": "Partners", "url": "index.html#contact"}
+      ]
+    },
+    {
+      "id": "award-008",
+      "title": "Outstanding Doctoral Dissertation",
+      "year": 2022,
+      "description": "Award for exceptional doctoral research contributing to advances in AI systems and software engineering practices.",
+      "image": "./images/prizes/prizes.jpg",
+      "links": [
+        {"label": "Publication", "url": "https://example.com/dissertation"},
+        {"label": "Google Scholar", "url": "https://scholar.google.com"}
+      ]
+    },
+    {
+      "id": "award-009",
+      "title": "Community Leadership Award",
+      "year": 2022,
+      "description": "Recognition for leadership in software engineering community initiatives, workshops, and knowledge sharing.",
+      "image": "./images/prizes/prizes.jpg",
+      "links": [
+        {"label": "Workshop Details", "url": "https://example.com/workshop"}
+      ]
+    },
+    {
+      "id": "award-010",
+      "title": "Technology Innovation Award",
+      "year": 2022,
+      "description": "Awarded for development of innovative tools and technologies for AI and software engineering systems.",
+      "image": "./images/prizes/prizes.jpg",
+      "links": [
+        {"label": "GitHub Repository", "url": "https://github.com"},
+        {"label": "Paper", "url": "https://example.com/paper"}
+      ]
+    },
+    {
+      "id": "award-011",
+      "title": "Best Empirical Study",
+      "year": 2021,
+      "description": "Recognition for conducting rigorous empirical research with significant insights for software engineering practice.",
+      "image": "./images/prizes/prizes.jpg",
+      "links": [
+        {"label": "IEEE TSE", "url": "https://ieeexplore.ieee.org"},
+        {"label": "Research Data", "url": "https://zenodo.org"}
+      ]
+    },
+    {
+      "id": "award-012",
+      "title": "Academic Excellence Prize",
+      "year": 2021,
+      "description": "Awarded to faculty for significant contributions to academic research and graduate student training programs.",
+      "image": "./images/prizes/prizes.jpg",
+      "links": [
+        {"label": "Publications", "url": "publications.html"}
+      ]
+    }
+  ]
 }

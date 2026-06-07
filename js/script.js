@@ -29,6 +29,7 @@ async function init() {
     if (page === 'team') initTeamPage(data);
     if (page === 'publications') initPublicationsPage(data);
     if (page === 'contributions') initContributionsPage(data);
+    if (page === 'honors') initHonorsPage(data);
 
     // Handle cross-page scrolling if a target was stored
     handleCrossPageScroll();
@@ -62,7 +63,11 @@ function bindGlobalContent(data) {
     ? `${data.teamPage?.title || 'Our Team'} · ${data.site.title}`
     : page === 'publications'
       ? `${data.publicationsPage?.title || 'Publications'} · ${data.site.title}`
-      : data.site.title;
+      : page === 'contributions'
+        ? `${data.contributionsPage?.title || 'Contributions'} · ${data.site.title}`
+        : page === 'honors'
+          ? `${data.honorsAwardsPage?.title || 'Honors & Awards'} · ${data.site.title}`
+          : data.site.title;
 
   document.documentElement.lang = data.site.language || 'en';
   $('[name="description"]')?.setAttribute('content', data.site.description || '');
@@ -86,6 +91,7 @@ function initHomePage(data) {
   $('[data-bind="specializationTitle"]').textContent = data.specializationsTitle;
   $('[data-bind="servicesTitle"]').textContent = data.servicesTitle;
   $('[data-bind="coordinationTitle"]').textContent = data.coordinationTitle;
+  $('[data-bind="honorsTitle"]').textContent = data.honorsAwardsPage?.title || 'Honors & Awards';
   $('[data-bind="publicationsTitle"]').textContent = data.publicationsTitle;
   // $('[data-bind="newsTitle"]').textContent = data.newsTitle;
   $('[data-bind="contactEyebrow"]').textContent = data.contact.eyebrow;
@@ -101,6 +107,7 @@ function initHomePage(data) {
   renderSpecializations(data.specializations);
   renderServices(data.services);
   renderCoordination(data.coordination);
+  renderHonorsSlider(data.honorsAwards);
   renderPublicationsPreview(data.publications);
   // renderNews(data.news);
   renderContact(data.contact);
@@ -762,7 +769,14 @@ function setupGlobalUi() {
 
   $$('[data-slider]').forEach(button => {
     button.addEventListener('click', () => {
-      const slider = button.dataset.slider === 'publications' ? $('#publicationsSlider') : $('#newsSlider');
+      let slider;
+      if (button.dataset.slider === 'publications') {
+        slider = $('#publicationsSlider');
+      } else if (button.dataset.slider === 'honors') {
+        slider = $('#honorsSlider');
+      } else {
+        slider = $('#newsSlider');
+      }
       if (!slider) return;
       const direction = button.dataset.direction === 'next' ? 1 : -1;
       const amount = slider.clientWidth * 0.85 * direction;
@@ -789,6 +803,13 @@ function stripHtml(html) {
 function initContributionsPage(data) {
   const pageData = data.contributionsPage || {};
   renderContributionGroups(pageData.groups || []);
+}
+
+function initHonorsPage(data) {
+  const pageData = data.honorsAwardsPage || {};
+  $('#honorsPageTitle').textContent = pageData.title || 'Honors & Awards';
+  $('#honorsPageIntro').textContent = pageData.intro || '';
+  renderHonorsPage(data.honorsAwards || []);
 }
 
 function renderContributionGroups(groups) {
@@ -841,6 +862,123 @@ function renderContributionGroups(groups) {
     section.appendChild(grid);
     mount.appendChild(section);
   });
+}
+
+function renderHonorsSlider(items) {
+  const slider = $('#honorsSlider');
+  if (!slider) return;
+  slider.innerHTML = '';
+
+  // Sort by year descending (most recent first) and take top 6
+  const recent = items
+    .sort((a, b) => b.year - a.year)
+    .slice(0, 6);
+
+  recent.forEach(item => {
+    const card = document.createElement('div');
+    card.className = 'honors-slider-card honors-card card card--soft';
+    card.innerHTML = `
+      <div class="honors-card__media">
+        <img src="${item.image || './images/Team.jpeg'}" alt="${item.title}">
+      </div>
+      <div class="honors-card__body">
+        <h3 class="honors-card__title">${item.title}</h3>
+        <p class="honors-card__year">${item.year}</p>
+        <p class="honors-card__description">${item.description || ''}</p>
+        <div class="honors-card__links"></div>
+      </div>
+    `;
+
+    const links = card.querySelector('.honors-card__links');
+    (item.links || []).forEach(link => {
+      const a = document.createElement('a');
+      a.href = link.url;
+      a.target = link.url.startsWith('http') ? '_blank' : '_self';
+      a.rel = link.url.startsWith('http') ? 'noopener noreferrer' : '';
+      a.className = 'honors-card__link';
+      a.textContent = link.label;
+      a.addEventListener('click', (e) => e.stopPropagation());
+      links.appendChild(a);
+    });
+
+    slider.appendChild(card);
+  });
+}
+
+function renderHonorsPreview(items, count = 3) {
+  const grid = $('#honorsPreview');
+  if (!grid) return;
+  grid.innerHTML = '';
+
+  const preview = items.slice(0, count);
+  preview.forEach(item => {
+    const article = document.createElement('article');
+    article.className = 'honors-card card card--soft';
+    article.innerHTML = `
+      <div class="honors-card__media">
+        <img src="${item.image || './images/Team.jpeg'}" alt="${item.title}">
+      </div>
+      <div class="honors-card__body">
+        <h3 class="honors-card__title">${item.title}</h3>
+        <p class="honors-card__year">${item.year}</p>
+        <p class="honors-card__description">${item.description || ''}</p>
+        <div class="honors-card__links"></div>
+      </div>
+    `;
+
+    const links = $('.honors-card__links', article);
+    (item.links || []).forEach(link => {
+      const a = document.createElement('a');
+      a.href = link.url;
+      a.target = link.url.startsWith('http') ? '_blank' : '_self';
+      a.rel = link.url.startsWith('http') ? 'noopener noreferrer' : '';
+      a.className = 'honors-card__link';
+      a.textContent = link.label;
+      links.appendChild(a);
+    });
+
+    grid.appendChild(article);
+  });
+}
+
+function renderHonorsPage(items) {
+  const mount = $('#honorsContainer');
+  if (!mount) return;
+  mount.innerHTML = '';
+
+  const grid = document.createElement('div');
+  grid.className = 'honors-grid';
+
+  items.forEach(item => {
+    const article = document.createElement('article');
+    article.className = 'honors-card card card--soft';
+    article.innerHTML = `
+      <div class="honors-card__media">
+        <img src="${item.image || './images/Team.jpeg'}" alt="${item.title}">
+      </div>
+      <div class="honors-card__body">
+        <h3 class="honors-card__title">${item.title}</h3>
+        <p class="honors-card__year">${item.year}</p>
+        <p class="honors-card__description">${item.description || ''}</p>
+        <div class="honors-card__links"></div>
+      </div>
+    `;
+
+    const links = $('.honors-card__links', article);
+    (item.links || []).forEach(link => {
+      const a = document.createElement('a');
+      a.href = link.url;
+      a.target = link.url.startsWith('http') ? '_blank' : '_self';
+      a.rel = link.url.startsWith('http') ? 'noopener noreferrer' : '';
+      a.className = 'honors-card__link';
+      a.textContent = link.label;
+      links.appendChild(a);
+    });
+
+    grid.appendChild(article);
+  });
+
+  mount.appendChild(grid);
 }
 
 init();
