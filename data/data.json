@@ -495,6 +495,18 @@
             ]
           },
           {
+            "name": "Kelly Azevedo Neves",
+            "role": "PhD Candidate",
+            "bio": "",
+            "photo": "./images/people/Kelly Azevedo Neves.jpeg",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/kelly-neves/"
+              }
+            ]
+          },
+          {
             "name": "Lucas Cordeiro Romão",
             "role": "PhD Candidate",
             "bio": "",
