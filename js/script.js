@@ -538,7 +538,7 @@ function renderTeamGroups(groups) {
     `;
 
     // Special rendering for Former Students as a bullet list
-    if (group.title === 'Former Students') {
+    if ((group.title === 'Former Post-docs') || (group.title === 'Former PhD Students') || (group.title === 'Former MSc Students') || (group.title === 'Former BSc Students')){
       const list = document.createElement('ul');
       list.className = 'former-students-list';
 

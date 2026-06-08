@@ -852,7 +852,7 @@ button { cursor: pointer; }
 }
 .former-student-name {
   font-weight: 600;
-  min-width: 200px;
+  min-width: 500px;
   color: var(--text);
 }
 .former-student-links {

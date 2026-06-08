@@ -987,10 +987,175 @@
         ]
       },
       {
-        "title": "Former Students",
+        "title": "Former Post-docs",
         "members": [
           {
-            "name": "Elena Santos",
+            "name": "Romeu Ferreira de Oliveira (Post-doc, Informatics, PUC-Rio, 2026)",
+            "role": "Former Student",
+            "bio": "",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/romeu-ferreira-esmc2/"
+              },
+              {
+                "label": "Scholar",
+                "url": "https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=XNojOXMAAAAJ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Former PhD Students",
+        "members": [
+          {
+            "name": "Hugo Villamizar (D.Sc., Informatics, PUC-Rio, 2023)",
+            "role": "Former Student",
+            "bio": "",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/hrguarinv/"
+              },
+              {
+                "label": "Scholar",
+                "url": "https://scholar.google.com/citations?hl=en&user=XgI_UaEAAAAJ"
+              }
+            ]
+          },
+          {
+            "name": "Eduardo Moreira Fernandes (D.Sc., Informatics, PUC-Rio, 2021)",
+            "role": "Former Student",
+            "bio": "",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/eduardomorfernandes/"
+              },
+              {
+                "label": "Scholar",
+                "url": "https://scholar.google.com/citations?hl=en&user=bPnuCiMAAAAJ"
+              }
+            ]
+          },
+          {
+            "name": "Diogo Silveira Mendonça (D.Sc., Informatics, PUC-Rio, 2019)",
+            "role": "Former Student",
+            "bio": "",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/diogomendonca/"
+              },
+              {
+                "label": "Scholar",
+                "url": "https://scholar.google.com/citations?hl=en&user=bwkYcu4AAAAJ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Former MSc Students",
+        "members": [
+          {
+            "name": "Júlia Condé Araújo (M.Sc., Informatics, PUC-Rio, 2026)",
+            "role": "Former Student",
+            "bio": "",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/elena-santos-93847/"
+              },
+              {
+                "label": "Scholar",
+                "url": "https://scholar.google.com/citations?user=elenasantos2024"
+              }
+            ]
+          },
+          {
+            "name": "Marina Condé Araújo (M.Sc., Informatics, PUC-Rio, 2026)",
+            "role": "Former Student",
+            "bio": "",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/elena-santos-93847/"
+              },
+              {
+                "label": "Scholar",
+                "url": "https://scholar.google.com/citations?user=elenasantos2024"
+              }
+            ]
+          },
+          {
+            "name": "Mauro Marcelino (M.Sc., Informatics, PUC-Rio, 2026)",
+            "role": "Former Student",
+            "bio": "",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/elena-santos-93847/"
+              },
+              {
+                "label": "Scholar",
+                "url": "https://scholar.google.com/citations?user=elenasantos2024"
+              }
+            ]
+          },
+          {
+            "name": "Wallace Albertini (M.Sc., Informatics, PUC-Rio, 2026)",
+            "role": "Former Student",
+            "bio": "",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/marcus-lopez-research/"
+              },
+              {
+                "label": "Scholar",
+                "url": "https://scholar.google.com/citations?user=marcuslopez2024"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Former BSc Students",
+        "members": [
+          {
+            "name": "Júlia Condé Araújo (M.Sc., 2026)",
+            "role": "Former Student",
+            "bio": "",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/elena-santos-93847/"
+              },
+              {
+                "label": "Scholar",
+                "url": "https://scholar.google.com/citations?user=elenasantos2024"
+              }
+            ]
+          },
+          {
+            "name": "Marina Condé Araújo (M.Sc., 2026)",
+            "role": "Former Student",
+            "bio": "",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/elena-santos-93847/"
+              },
+              {
+                "label": "Scholar",
+                "url": "https://scholar.google.com/citations?user=elenasantos2024"
+              }
+            ]
+          },
+          {
+            "name": "Mauro Marcelino (M.Sc., 2026)",
             "role": "Former Student",
             "bio": "",
             "links": [
