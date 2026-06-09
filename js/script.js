@@ -45,7 +45,21 @@ function handleCrossPageScroll() {
     sessionStorage.removeItem('scrollTarget');
     // Use a small delay to ensure DOM is fully rendered
     setTimeout(() => {
-      const target = $(scrollTarget);
+      let target;
+      
+      // If scrollTarget starts with #, treat it as an ID selector
+      if (scrollTarget.startsWith('#')) {
+        target = $(scrollTarget);
+      } else {
+        // Otherwise, treat it as a category title and find the section with that title
+        const sections = $$('.contribution-group');
+        const categorySection = sections.find(section => {
+          const titleEl = section.querySelector('.section-title');
+          return titleEl && titleEl.textContent.trim() === scrollTarget;
+        });
+        target = categorySection;
+      }
+      
       if (target) {
         const headerOffset = 180;
         const elementPosition = target.getBoundingClientRect().top + window.scrollY;
@@ -104,6 +118,7 @@ function initHomePage(data) {
   renderAbout(data.about);
   renderSpecializations(data.specializations);
   renderServices(data.services);
+  renderContributionCategories(data.contributionsPage?.groups || []);
   renderCoordination(data.coordination);
   renderHonorsSlider(data.honorsAwards);
   renderPublicationsPreview(data.publications);
@@ -439,6 +454,32 @@ function renderServices(items) {
     node.querySelector('.service-card__text').textContent = item.description;
     wrapper.appendChild(node);
     grid.appendChild(wrapper);
+  });
+}
+
+function renderContributionCategories(groups) {
+  const slider = $('#contributionsSlider');
+  if (!slider) return;
+  slider.innerHTML = '';
+
+  groups.forEach(group => {
+    const card = document.createElement('div');
+    card.className = 'contribution-category-card';
+    
+    // Get the image from the first contribution in this group
+    const firstImage = group.contributions?.[0]?.image || './images/Team.jpeg';
+    
+    card.innerHTML = `
+      <div class="contribution-category-card__image-wrap">
+        <img class="contribution-category-card__image" src="${firstImage}" alt="${group.title}">
+      </div>
+      <div class="contribution-category-card__content">
+        <h3 class="contribution-category-card__title">${group.title}</h3>
+        <p class="contribution-category-card__description">${group.description || ''}</p>
+      </div>
+    `;
+    
+    slider.appendChild(card);
   });
 }
 

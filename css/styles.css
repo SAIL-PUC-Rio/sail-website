@@ -432,6 +432,46 @@ button { cursor: pointer; }
   line-height: 1.7;
 }
 
+.contributions-slider {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+}
+.contributions-slider::-webkit-scrollbar {
+  display: none;
+}
+.contribution-category-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.contribution-category-card__image-wrap {
+  border-radius: 3px;
+  overflow: hidden;
+  background: #ddd;
+  aspect-ratio: 4 / 3;
+}
+.contribution-category-card__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.35s ease;
+}
+.contribution-category-card:hover .contribution-category-card__image {
+  transform: scale(1.03);
+}
+.contribution-category-card__title {
+  margin: 0 0 0.55rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.contribution-category-card__description {
+  margin: 0;
+  color: var(--text-soft);
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
 .section-heading-row {
   display: flex;
   justify-content: space-between;
@@ -688,6 +728,7 @@ button { cursor: pointer; }
 
 @media (max-width: 1120px) {
   .services-grid { grid-template-columns: repeat(2, 1fr); }
+  .contributions-slider { grid-template-columns: repeat(3, 1fr); }
   .specialization-layout,
   .specialization-panel,
   .contact-band__inner,
@@ -714,6 +755,7 @@ button { cursor: pointer; }
   .content-slider-wrap {
     grid-template-columns: 1fr;
   }
+  .contributions-slider { grid-template-columns: repeat(2, 1fr); }
   .slider-arrow { display: none; }
 }
 
@@ -725,6 +767,7 @@ button { cursor: pointer; }
   .brand-logo--institution, .brand-logo--site { height: 56px; }
   .brand-divider { height: 52px; }
   .services-grid { grid-template-columns: 1fr; }
+  .contributions-slider { grid-template-columns: 1fr; }
   .coordination-grid { grid-template-columns: 1fr; }
   .hero-slider,
   .hero-slide { min-height: 430px; }
