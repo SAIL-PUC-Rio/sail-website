@@ -162,6 +162,7 @@
     }
   ],
   "publicationsTitle": "Publications",
+  "publicationsIntro": "A collection of peer-reviewed research outputs from SAIL lab members, demonstrating our contributions to software engineering and AI engineering research.",
   "publicationsMoreUrl": "publications.html",
   "publications": [
     {
@@ -1198,6 +1199,7 @@
       "sort": "year"
     }
   },
+  "contributionsIntro": "A selection of significant contributions showcasing SAIL lab's impact on research, education, and professional development in software and AI engineering.",
   "contributionsPage": {
     "title": "Contributions & Impact",
     "groups": [
@@ -1322,6 +1324,7 @@
       }
     ]
   },
+  "honorsIntro": "Recognition of the achievements, contributions, and excellence of SAIL lab members.",
   "honorsAwardsPage": {
     "title": "Honors & Awards",
     "intro": "Recognition of the achievements, contributions, and excellence of SAIL lab members."

@@ -44,6 +44,12 @@ button { cursor: pointer; }
   color: var(--text-soft);
   max-width: 70ch;
 }
+
+.other-section-intro {
+  margin-bottom: 1.75rem;
+  color: var(--text-soft);
+}
+
 .eyebrow {
   margin: 0 0 0.5rem;
   text-transform: uppercase;

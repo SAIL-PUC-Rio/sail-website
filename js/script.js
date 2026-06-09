@@ -105,6 +105,9 @@ function initHomePage(data) {
   $('[data-bind="specializationTitle"]').textContent = data.specializationsTitle;
   $('[data-bind="servicesTitle"]').textContent = data.servicesTitle;
   $('[data-bind="coordinationTitle"]').textContent = data.coordinationTitle;
+  $('#publicationsIntro').textContent = data.publicationsIntro || '';
+  $('#honorsIntro').textContent = data.honorsIntro || '';
+  $('#contributionsIntro').textContent = data.contributionsIntro || '';
   $('[data-bind="honorsTitle"]').textContent = data.honorsAwardsPage?.title || 'Honors & Awards';
   $('[data-bind="publicationsTitle"]').textContent = data.publicationsTitle;
   $('[data-bind="contactEyebrow"]').textContent = data.contact.eyebrow;
