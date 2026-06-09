@@ -161,6 +161,7 @@
       "image": "./images/services/RD.jpeg"
     }
   ],
+  "contributionsIntro": "Explore our contributions across research, tools, frameworks, and methodologies that advance software and AI engineering.",
   "publicationsTitle": "Publications",
   "publicationsIntro": "A collection of peer-reviewed research outputs from SAIL lab members, demonstrating our contributions to software engineering and AI engineering research.",
   "publicationsMoreUrl": "publications.html",

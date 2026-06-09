@@ -106,8 +106,8 @@ function initHomePage(data) {
   $('[data-bind="servicesTitle"]').textContent = data.servicesTitle;
   $('[data-bind="coordinationTitle"]').textContent = data.coordinationTitle;
   $('#publicationsIntro').textContent = data.publicationsIntro || '';
-  $('#honorsIntro').textContent = data.honorsIntro || '';
   $('#contributionsIntro').textContent = data.contributionsIntro || '';
+  $('#honorsIntro').textContent = data.honorsIntro || '';
   $('[data-bind="honorsTitle"]').textContent = data.honorsAwardsPage?.title || 'Honors & Awards';
   $('[data-bind="publicationsTitle"]').textContent = data.publicationsTitle;
   $('[data-bind="contactEyebrow"]').textContent = data.contact.eyebrow;
@@ -477,10 +477,16 @@ function renderContributionCategories(groups) {
         <img class="contribution-category-card__image" src="${firstImage}" alt="${group.title}">
       </div>
       <div class="contribution-category-card__content">
-        <h3 class="contribution-category-card__title">${group.title}</h3>
+        <h3 class="contribution-category-card__title">${group.title}<span class="contribution-category-card__icon" aria-hidden="true">↗</span></h3>
         <p class="contribution-category-card__description">${group.description || ''}</p>
       </div>
     `;
+    
+    // Add click handler to navigate to contributions page and scroll to this category
+    card.addEventListener('click', () => {
+      sessionStorage.setItem('scrollTarget', group.title);
+      window.location.href = 'contributions.html';
+    });
     
     slider.appendChild(card);
   });
