@@ -450,6 +450,11 @@ button { cursor: pointer; }
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+.contribution-category-card:hover {
+  transform: translateY(-4px);
 }
 .contribution-category-card__image-wrap {
   border-radius: 3px;
@@ -470,6 +475,15 @@ button { cursor: pointer; }
   margin: 0 0 0.55rem;
   font-size: 1.2rem;
   font-weight: 600;
+}
+.contribution-category-card__icon {
+  margin-left: 0.5rem;
+  opacity: 0.6;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+.contribution-category-card:hover .contribution-category-card__icon {
+  opacity: 1;
+  transform: translate(2px, -2px);
 }
 .contribution-category-card__description {
   margin: 0;
