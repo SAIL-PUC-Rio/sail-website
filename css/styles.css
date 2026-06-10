@@ -15,7 +15,7 @@
 }
 
 * { box-sizing: border-box;}
-html { scroll-behavior: smooth; scroll-margin-top: 2rem;  }
+html { scroll-behavior: smooth; }
 body {
   margin: 0;
   font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
