@@ -161,7 +161,6 @@
       "image": "./images/services/RD.jpeg"
     }
   ],
-  "contributionsIntro": "Explore our contributions across research, tools, frameworks, and methodologies that advance software and AI engineering.",
   "publicationsTitle": "Publications",
   "publicationsIntro": "A collection of peer-reviewed research outputs from SAIL lab members, demonstrating our contributions to software engineering and AI engineering research.",
   "publicationsMoreUrl": "publications.html",
@@ -1209,27 +1208,28 @@
         "description": "Books, handbooks, textbooks, and educational materials.",
         "contributions": [
           {
-            "title": "Software Engineering: A Practical Approach",
-            "description": "Comprehensive textbook covering modern software engineering principles, practices, and methodologies for students and practitioners.",
-            "image": "./images/contributions/books.jpg",
+            "title": "Handbook on Teaching Empirical Software Engineering",
+            "description": "This handbook exploits the profound experience and expertise of well-established scholars in the empirical software engineering community to provide guidance and support in teaching various research methods and fundamental concepts.",
+            "image": "./images/contributions_and_impact/handbook.png",
             "tags": [
-              {"label": "Springer Publishing", "url": "https://www.springer.com"}
+              {"label": "Springer Publishing", "url": "https://link.springer.com/book/10.1007/978-3-031-71769-7"},
+              {"label": "Amazon", "url": "https://www.amazon.com/dp/3031717686?ref=cm_sw_r_cp_ud_dp_5T26RXTJZX2VPF1EYG9M&social_share=cm_sw_r_cp_ud_dp_5T26RXTJZX2VPF1EYG9M&skipTwisterOG=1"}
             ]
           },
           {
-            "title": "AI Engineering Handbook",
-            "description": "A practical guide to designing, developing, and maintaining AI-based systems with focus on reliability and responsibility.",
-            "image": "./images/contributions/books.jpg",
+            "title": " UML-Based Software Product Line Engineering",
+            "description": "This book is about software product lines (SPLs) designed and developed taking UML diagrams as the primary basis, modeled according to a rigorous approach composed of an UML profile and a systematic process for variability management activities, forming the Stereotype-based Management of Variability (SMarty) approach.",
+            "image": "./images/contributions_and_impact/uml-based.png",
             "tags": [
-              {"label": "ACM Books", "url": "https://dl.acm.org"}
+              {"label": "Amazon", "url": "https://www.amazon.com/dp/3031185552?ref=cm_sw_r_cp_ud_dp_HGV753PR3QGF7BAHK1AZ&social_share=cm_sw_r_cp_ud_dp_HGV753PR3QGF7BAHK1AZ&skipTwisterOG=1"}
             ]
           },
           {
-            "title": "Empirical Methods in Software Engineering",
-            "description": "Educational material on empirical research methods, experimental design, and evidence-based software engineering practices.",
-            "image": "./images/contributions/books.jpg",
+            "title": "Contemporary Empirical Methods in Software Engineering",
+            "description": "This book presents contemporary empirical methods in software engineering related to the plurality of research methodologies, human factors, data collection and processing, aggregation and synthesis of evidence, and impact of software engineering research. The individual chapters discuss methods that impact the current evolution of empirical software engineering and form the backbone of future research.",
+            "image": "./images/contributions_and_impact/contemporary-empirical.jpg",
             "tags": [
-              {"label": "IEEE Computer Society", "url": "https://www.computer.org"}
+              {"label": "Amazon", "url": "https://www.amazon.com/dp/3030324885?ref=cm_sw_r_cp_ud_dp_Q28M8FPR7AJZCS4RXKRX&social_share=cm_sw_r_cp_ud_dp_Q28M8FPR7AJZCS4RXKRX&skipTwisterOG=1"}
             ]
           }
         ]
