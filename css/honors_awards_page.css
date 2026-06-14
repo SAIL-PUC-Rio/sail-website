@@ -15,14 +15,17 @@
 
 .honors-card__media {
   width: 100%;
-  aspect-ratio: 1 / 1;
+  height: fit-content;
+  aspect-ratio: 10 / 8;
   flex-shrink: 0;      
 }
 
 .honors-card__media img {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top;
 }
 
 .honors-card__body {

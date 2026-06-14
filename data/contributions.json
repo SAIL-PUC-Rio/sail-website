@@ -41,44 +41,19 @@
         "description": "Methods, frameworks, standards, maturity models, best practices, software/AI tools, patents, and platforms.",
         "contributions": [
           {
-            "title": "SAIL Quality Framework (SQF)",
-            "description": "A comprehensive framework for assessing and improving quality in software and AI systems, including maturity models and assessment tools.",
+            "title": "POLARIS: A Framework to Guide the Development of Trustworthy AI Systems.",
+            "description": " POLARIS, the framework we designed to fill the gaps highlighted in the review of the state of the practice and to provide AI practitioners with actionable guidelines specific to each phase of the SDLC. ",
             "image": "./images/contributions/framework.jpg",
             "tags": [
-              {"label": "GitHub", "url": "https://github.com"},
-              {"label": "Paper", "url": "https://g1.globo.com/"}
+              {"label": "Paper", "url": "https://www-di.inf.puc-rio.br/~kalinowski//publications/BaldassarreGKR24.pdf"}
             ]
           },
           {
-            "title": "ML System Engineering Standards (MLSES)",
-            "description": "Standardized practices and guidelines for engineering machine learning-enabled systems, covering requirements, design, and validation.",
+            "title": "DIP-AI: A Discovery Framework for AI Innovation Projects.",
+            "description": " DIP-AI, an approach developed to identify and prioritize key problems to be addressed in artificial intelligence innovation projects.",
             "image": "./images/contributions/framework.jpg",
             "tags": [
-              {"label": "IEEE Standards", "url": "https://standards.ieee.org"},
-              {"label": "Zenodo", "url": "https://zenodo.org/"}
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Research Methods & Guidelines",
-        "description": "Methodological guidance and resources for conducting high-quality research.",
-        "contributions": [
-          {
-            "title": "Systematic Review Protocol for SE Research",
-            "description": "Guidelines and tools for conducting systematic literature reviews in software engineering, including planning, execution, and reporting.",
-            "image": "./images/contributions/guidelines.jpg",
-            "tags": [
-              {"label": "PRISMA Guidelines", "url": "http://www.prisma-statement.org"},
-              {"label": "Zenodo", "url": "https://zenodo.org"}
-            ]
-          },
-          {
-            "title": "Guidelines for Promoting Software Product Line Experiments",
-            "description": "Guidelines to support promoting experiments in SPL with actual examples, facilitate the conduction of experiments in the SPL area, and contribute to mitigate threats to validity) indicate that the proposed guidelines are helpful, in particular, for SPL researchers and practitioners active.",
-            "image": "./images/contributions/guidelines.jpg",
-            "tags": [
-              {"label": "Paper", "url": "https://www-di.inf.puc-rio.br/~kalinowski//publications/FurtadoOK21.pdf"}
+              {"label": "Paper", "url": "https://www-di.inf.puc-rio.br/~kalinowski//publications/MartinsEtAl25.pdf"}
             ]
           }
         ]
@@ -87,31 +62,30 @@
         "title": "Evidence & Knowledge Resources",
         "description": "Surveys and evidence syntheses, including systematic reviews, mapping studies, and multivocal reviews.",
         "contributions": [
+           {
+            "title": "Constructive Patterns for Human-Centered Tech Hiring",
+            "description": "This study addressed the following research question: What constructive patterns shape positive experiences for novice software engineers in online recruitment and selection processes? ",
+            "image": "./images/contributions/paper.jpg",
+            "tags": [
+              {"label": "Paper", "url": "https://www-di.inf.puc-rio.br/~kalinowski//publications/AraujoVWBGK26.pdf"},
+              {"label": "Zenodo", "url": "https://zenodo.org/records/17423484"}
+            ]
+          },
           {
-            "title": "Systematic Review: AI Engineering Practices in Industry",
+            "title": "A Quasi-Experimental Evaluation of Coaching to Mitigate the Impostor Phenomenon in Early-Career Software Engineers",
             "description": "Comprehensive systematic review analyzing current practices, challenges, and opportunities in AI engineering across industry sectors.",
             "image": "./images/contributions/paper.jpg",
             "tags": [
-              {"label": "TSE", "url": "https://ieeexplore.ieee.org"},
-              {"label": "Zenodo", "url": "https://zenodo.org"}
+              {"label": "Paper", "url": "https://www-di.inf.puc-rio.br/~kalinowski//publications/GuenesLTANBK26.pdf"},
+              {"label": "Zenodo", "url": "https://zenodo.org/records/17433864"}
             ]
           },
           {
-            "title": "Mapping Study: Human Aspects in Software Teams",
-            "description": "Systematic mapping study identifying key factors influencing team collaboration, communication, and well-being in software development.",
+            "title": "A Multivocal Literature Review on the Benefits and Limitations of Industry-Leading AutoML Tools",
+            "description": "The study employed comprehensive and transparent search strategies and qualitative thematic analysis procedures, revealing 18 reported benefits and 25 limitations.",
             "image": "./images/contributions/paper.jpg",
             "tags": [
-              {"label": "CHASE", "url": "https://www.acm.org"},
-              {"label": "Zenodo", "url": "https://zenodo.org"}
-            ]
-          },
-          {
-            "title": "Multivocal Review: ML Testing and Quality Assurance",
-            "description": "Multivocal review synthesizing knowledge from academic research and industry practice on testing and quality assurance for ML systems.",
-            "image": "./images/contributions/paper.jpg",
-            "tags": [
-              {"label": "JSS", "url": "https://www.springer.com"},
-              {"label": "Zenodo", "url": "https://zenodo.org"}
+              {"label": "Paper", "url": "https://www-di.inf.puc-rio.br/~kalinowski//publications/QuarantaACK25.pdf"}
             ]
           }
         ]

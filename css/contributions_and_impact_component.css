@@ -1,6 +1,6 @@
 .contributions-slider {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1.5rem;
 }
 .contributions-slider::-webkit-scrollbar {
@@ -12,6 +12,7 @@
   gap: 1rem;
   cursor: pointer;
   transition: transform 0.2s ease;
+  height: 100%;
 }
 .contribution-category-card:hover {
   transform: translateY(-4px);
@@ -21,6 +22,7 @@
   overflow: hidden;
   background: #ddd;
   aspect-ratio: 4 / 3;
+  width: 100%;
 }
 .contribution-category-card__image {
   width: 100%;
@@ -50,4 +52,5 @@
   color: var(--text-soft);
   font-size: 0.95rem;
   line-height: 1.6;
+  flex-grow: 1;
 }

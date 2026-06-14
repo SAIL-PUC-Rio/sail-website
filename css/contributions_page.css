@@ -29,22 +29,28 @@
   display: flex;       
   flex-direction: column;
   height: 100%;    
+  background: #fff;
 }
 
 .contribution-card__media {
   width: 100%;
-  aspect-ratio: 1 / 1;
+  aspect-ratio: 12 / 9;
   flex-shrink: 0;     
+  overflow: hidden;
 }
 
 .contribution-card__media img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: top;
 }
 
 .contribution-card__body {
   padding: 1.25rem 1.25rem 1.4rem;
+  display: flex;        
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .contribution-card__title {
@@ -70,7 +76,8 @@
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
-  margin-top: 1rem;
+  margin-top: auto;
+  padding-top: 1rem; 
 }
 
 .contribution-card__tag {

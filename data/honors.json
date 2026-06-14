@@ -33,8 +33,7 @@
       "description": "Recognition for innovative research work by graduate students in empirical software engineering.",
       "image": "./images/prizes/prizes.jpg",
       "links": [
-        {"label": "View Research", "url": "https://example.com/research"},
-        {"label": "GitHub", "url": "https://github.com"}
+  
       ]
     },
     {
@@ -44,8 +43,7 @@
       "description": "Award for developing novel methodologies and tools for AI system engineering and evaluation.",
       "image": "./images/prizes/prizes.jpg",
       "links": [
-        {"label": "Tool Repository", "url": "https://github.com"},
-        {"label": "Paper", "url": "https://example.com/paper"}
+
       ]
     },
     {
@@ -55,7 +53,7 @@
       "description": "Recognition of outstanding industry-academia partnership and research collaboration.",
       "image": "./images/prizes/prizes.jpg",
       "links": [
-        {"label": "Project Page", "url": "https://example.com/project"}
+
       ]
     },
     {
@@ -65,7 +63,7 @@
       "description": "Awarded to faculty members demonstrating exceptional mentorship and guidance to students.",
       "image": "./images/prizes/prizes.jpg",
       "links": [
-        {"label": "Team", "url": "team.html"}
+
       ]
     },
     {
@@ -75,7 +73,7 @@
       "description": "Recognition for establishing and maintaining productive long-term partnerships with industry organizations in software engineering.",
       "image": "./images/prizes/prizes.jpg",
       "links": [
-        {"label": "Partners", "url": "index.html#contact"}
+
       ]
     },
     {
@@ -85,8 +83,6 @@
       "description": "Award for exceptional doctoral research contributing to advances in AI systems and software engineering practices.",
       "image": "./images/prizes/prizes.jpg",
       "links": [
-        {"label": "Publication", "url": "https://example.com/dissertation"},
-        {"label": "Google Scholar", "url": "https://scholar.google.com"}
       ]
     },
     {
@@ -96,7 +92,6 @@
       "description": "Recognition for leadership in software engineering community initiatives, workshops, and knowledge sharing.",
       "image": "./images/prizes/prizes.jpg",
       "links": [
-        {"label": "Workshop Details", "url": "https://example.com/workshop"}
       ]
     },
     {
@@ -106,29 +101,6 @@
       "description": "Awarded for development of innovative tools and technologies for AI and software engineering systems.",
       "image": "./images/prizes/prizes.jpg",
       "links": [
-        {"label": "GitHub Repository", "url": "https://github.com"},
-        {"label": "Paper", "url": "https://example.com/paper"}
-      ]
-    },
-    {
-      "id": "award-011",
-      "title": "Best Empirical Study",
-      "year": 2021,
-      "description": "Recognition for conducting rigorous empirical research with significant insights for software engineering practice.",
-      "image": "./images/prizes/prizes.jpg",
-      "links": [
-        {"label": "IEEE TSE", "url": "https://ieeexplore.ieee.org"},
-        {"label": "Research Data", "url": "https://zenodo.org"}
-      ]
-    },
-    {
-      "id": "award-012",
-      "title": "Academic Excellence Prize",
-      "year": 2021,
-      "description": "Awarded to faculty for significant contributions to academic research and graduate student training programs.",
-      "image": "./images/prizes/prizes.jpg",
-      "links": [
-        {"label": "Publications", "url": "publications.html"}
       ]
     }
   ]
