@@ -1,0 +1,49 @@
+{
+  "publicationsTitle": "Publications",
+  "publicationsIntro": "A collection of peer-reviewed research outputs from SAIL lab members, demonstrating our contributions to software engineering and AI engineering research.",
+  "publicationsMoreUrl": "publications.html",
+  "publications": [
+    {
+      "title": "Statistical Confidence in Functional Correctness: An Approach for AI Product Functional Correctness Evaluation",
+      "authors": "Albertini, W.; Araújo, M. C.; Araújo, J. C.; Alves, A. P. S.; and Kalinowski, M.",
+      "year": "2026",
+      "venue": "IEEE/ACM 5th International Conference on AI Engineering (CAIN)",
+      "url": "https://www-di.inf.puc-rio.br/~kalinowski//publications/AlbertiniAAAK26.pdf"
+    },
+    {
+      "title": "A Quasi-Experimental Evaluation of Coaching to Mitigate the Impostor Phenomenon in Early-Career Software Engineers",
+      "authors": "Guenes, P.; Leite, J.; Tomaz, R.; Araújo, A. A.; Natividade, J.; Baldassarre, T.; and Kalinowski, M.",
+      "year": "2026",
+      "venue": "IEEE/ACM 19th International Conference on Cooperative and Human Aspects of Software Engineering (CHASE)",
+      "url": "https://www-di.inf.puc-rio.br/~kalinowski//publications/GuenesLTANBK26.pdf"
+    },
+    {
+      "title": "Naming the Pain in machine learning-enabled systems engineering.",
+      "authors": "Kalinowski, M.; Mendez, D.; Giray, G.; Santos Alves, A. P.; Azevedo, K.; Escovedo, T.; Villamizar, H.; Lopes, H.; Baldassarre, T.; Wagner, S.; Biffl, S.; Musil, J.; Felderer, M.; Lavesson, N.; and Gorschek, T",
+      "year": "2025",
+      "venue": "Information and Software Technology Journal (IST)",
+      "url": "https://www-di.inf.puc-rio.br/~kalinowski//publications/KalinowskiEtAl25.pdf"
+    },
+    {
+      "title": "Industrial Practices of Requirements Engineering for ML-Enabled Systems in Brazil: An Extended Analysis",
+      "authors": "Alves, A. P. S.; Kalinowski, M.; Mendez, D.; Villamizar, H.; Escovedo, T.; and Lopes, H.",
+      "year": "2025",
+      "venue": "Journal of Software Engineering Research and Development (JSERD)",
+      "url": "https://www-di.inf.puc-rio.br/~kalinowski//publications/AlvesKMVEL25.pdf"
+    },
+    {
+      "title": "Experiences Applying Lean R&D in Industry-Academia Collaboration Projects.",
+      "authors": "Kalinowski, M.; Romao, L.; Rodrigues, A.; Barbosa, C.; Villamizar, H.; Barbosa, S. D.; and Lopes, H.",
+      "year": "2025",
+      "venue": "7th International Conference on Software Quality, Software Quality Days (SWQD)",
+      "url": "https://www-di.inf.puc-rio.br/~kalinowski//publications/KalinowskiRRBVBL25.pdf"
+    },
+    {
+      "title": "Identifying concerns when specifying machine learning-enabled systems: A perspective-based approach.",
+      "authors": "Villamizar, H.; Kalinowski, M.; Lopes, H.; and Mendez, D.",
+      "year": "2024",
+      "venue": "Journal of Systems and Software (JSS)",
+      "url": "https://www-di.inf.puc-rio.br/~kalinowski//publications/VillamizarKLM24.pdf"
+    }
+  ]
+}

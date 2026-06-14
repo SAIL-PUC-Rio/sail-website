@@ -1,0 +1,45 @@
+  {
+    "specializationsTitle": "Research Areas",
+    "specializations": [
+        {
+        "title": "AI Engineering",
+        "description": "<p>Focuses on the methods, processes, and practices needed to design, develop, evaluate, deploy, and maintain AI-based systems in a reliable and responsible way. It addresses the full lifecycle of AI-intensive systems, from data and models to monitoring, quality, and continuous improvement in real-world settings.</p>",
+        "images": [
+            {
+            "src": "./images/research_area/AI Engineering.png",
+            "alt": "AI Engineering"
+            }
+        ]
+        },
+        {
+        "title": "AI for Software Engineering",
+        "description": "<p>Explores how AI techniques can support software engineering activities, such as requirements analysis, coding, testing, maintenance, and developer productivity. This area investigates how intelligent tools and models can enhance development processes and help teams build software more effectively and efficiently.</p>",
+        "images": [
+            {
+            "src": "./images/research_area/AI4SE.webp",
+            "alt": "AI for Software Engineering"
+            }
+        ]
+        },
+        {
+        "title": "Empirical Software Engineering",
+        "description": "<p>Investigates software engineering through observation, experimentation, and evidence, helping researchers and practitioners better understand how software is built in real-world settings. Its goal is to generate insights grounded in data and practice, supporting more informed methods, decisions, and improvements.</p>",
+        "images": [
+            {
+            "src": "./images/research_area/EMSE.png",
+            "alt": "Empirical Software Engineering"
+            }
+        ]
+        },
+        {
+        "title": "Human Aspects of Software Engineering",
+        "description": "<p>Examines the people side of software engineering, including collaboration, communication, decision-making, teamwork, and the ways humans interact with processes and technologies. It highlights the social and organizational dimensions that influence how software and AI systems are conceived, developed, and used.</p>",
+        "images": [
+            {
+            "src": "./images/research_area/Human Aspects.avif",
+            "alt": "Human Aspects of Software Engineering"
+            }
+        ]
+        }
+    ]
+}

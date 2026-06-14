@@ -1,0 +1,39 @@
+{
+"heroSlides": [
+    {
+      "title": "Meet SAIL",
+      "text": "A newly launched PUC-Rio lab dedicated to research, innovation, and talent development in Software Engineering and AI Engineering.",
+      "image": "./images/banner/Meet SAIL.jpeg"
+    },
+    {
+      "title": "Software &amp; AI Engineering Lab",
+      "text": "We produce knowledge and train people to build software and AI systems that are more effective, reliable, and responsible.",
+      "image": "./images/banner/SAIL Lab.jpeg"
+    },
+    {
+      "title": "Tradition and Excellence",
+      "text": "SAIL is part of PUC-Rio's Graduate Program in Informatics, an internationally recognized program with CAPES 7, the highest evaluation level.",
+      "image": "./images/banner/PUC-Rio.jpg"
+    },
+    {
+      "title": "Scientific Leadership",
+      "text": "SAIL is led by Marcos Kalinowski, an internationally recognized Software Engineering researcher with strong experience in industry-driven R&amp;D.",
+      "image": "./images/banner/Leadership.jpeg"
+    },
+    {
+      "title": "Research Areas",
+      "text": "We investigate Human Aspects, AI Engineering, Experimental Software Engineering, and Artificial Intelligence for Software Engineering.",
+      "image": "./images/banner/Research Areas.jpeg"
+    },
+    {
+      "title": "Collaboration Network",
+      "text": "SAIL connects PUC-Rio, ISERN, Instituto Kunumi, leading universities, research centers, and industry partners in impactful projects.",
+      "image": "./images/banner/Collaboration Network.jpeg"
+    },
+    {
+      "title": "Follow SAIL",
+      "text": "Follow our research, projects, and contributions to the future of Software Engineering and Artificial Intelligence.",
+      "image": "./images/banner/Team.jpeg"
+    }
+    ]
+}

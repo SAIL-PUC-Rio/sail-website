@@ -1,0 +1,121 @@
+{
+    "contributionsIntro": "A selection of significant contributions showcasing SAIL lab's impact on research, education, and professional development in software and AI engineering.",
+    "contributionsPage": {
+    "title": "Contributions & Impact",
+    "groups": [
+      {
+        "title": "Books",
+        "description": "Books, handbooks, textbooks, and educational materials.",
+        "contributions": [
+          {
+            "title": "Handbook on Teaching Empirical Software Engineering",
+            "description": "This handbook exploits the profound experience and expertise of well-established scholars in the empirical software engineering community to provide guidance and support in teaching various research methods and fundamental concepts.",
+            "image": "./images/contributions_and_impact/handbook.png",
+            "tags": [
+              {"label": "Springer Publishing", "url": "https://link.springer.com/book/10.1007/978-3-031-71769-7"},
+              {"label": "Amazon", "url": "https://www.amazon.com/dp/3031717686?ref=cm_sw_r_cp_ud_dp_5T26RXTJZX2VPF1EYG9M&social_share=cm_sw_r_cp_ud_dp_5T26RXTJZX2VPF1EYG9M&skipTwisterOG=1"}
+            ]
+          },
+          {
+            "title": "Introdução à Estatística para Ciência de Dados",
+            "description": "In an increasingly data-driven world, the ability to understand and apply statistical concepts in data science is becoming increasingly essential for making strategic decisions that can have a crucial impact on business. Professionals in the field are deepening their knowledge of applied statistics to develop a set of skills and tools to effectively handle the uncertainty underlying these decisions. Through the application of statistical methods, data scientists have the ability to translate data into valuable insights, transforming the complex realm of uncertainty into a clear and informed field of action. While Statistics provides the methodological rigor and foundation for reliable inferences, Data Science expands the possibilities with advanced computational techniques and complex models capable of handling the volume, velocity, and complexity of modern data. Together, these disciplines enable the resolution of highly complex problems.",
+            "image": "./images/contributions_and_impact/intro-a-estatistica.png",
+            "tags": [
+                      {"label": "Casa do Codigo", "url": "https://www.casadocodigo.com.br/products/livro-estatistica-datascience?cupom=AF-78dscae9"},
+                      {"label": "Amazon", "url": "https://www.amazon.com.br/dp/B0D81NN7GY?ref=cm_sw_r_cp_ud_dp_48PX3HSJF0Z5Q57CSQDQ&social_share=cm_sw_r_cp_ud_dp_48PX3HSJF0Z5Q57CSQDQ&skipTwisterOG=1"}
+            ]
+          },
+          {
+            "title": "Engenharia de Software para Ciência de Dados",
+            "description": "Recent advances in the field of Data Science—particularly in Machine Learning—have made new software solutions viable and practically relevant, solutions that can learn from data and make intelligent predictions. However, for these systems to succeed, they must be built in accordance with best practices in Software Engineering to truly meet customer needs. This book aims to consolidate the field of Software Engineering for Data Science and empower professionals interested in or working in Data Science to build Machine Learning-based systems by demonstrating how to build these systems end-to-end, adapting and applying best practices to this context.",
+            "image": "./images/contributions_and_impact/engenharia_dados.png",
+            "tags": [
+                      {"label": "Casa do Codigo", "url": "https://www.casadocodigo.com.br//products/livro-escd?cupom=AF-78dscae9"},
+                      {"label": "Amazon", "url": "https://www.amazon.com.br/dp/B0C4BBRZBN?ref=cm_sw_r_cp_ud_dp_3FXZCPP5Y47ZXDRGWNZP&social_share=cm_sw_r_cp_ud_dp_3FXZCPP5Y47ZXDRGWNZP&skipTwisterOG=1"}
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Frameworks, Standards & Technologies",
+        "description": "Methods, frameworks, standards, maturity models, best practices, software/AI tools, patents, and platforms.",
+        "contributions": [
+          {
+            "title": "SAIL Quality Framework (SQF)",
+            "description": "A comprehensive framework for assessing and improving quality in software and AI systems, including maturity models and assessment tools.",
+            "image": "./images/contributions/framework.jpg",
+            "tags": [
+              {"label": "GitHub", "url": "https://github.com"},
+              {"label": "Paper", "url": "https://g1.globo.com/"}
+            ]
+          },
+          {
+            "title": "ML System Engineering Standards (MLSES)",
+            "description": "Standardized practices and guidelines for engineering machine learning-enabled systems, covering requirements, design, and validation.",
+            "image": "./images/contributions/framework.jpg",
+            "tags": [
+              {"label": "IEEE Standards", "url": "https://standards.ieee.org"},
+              {"label": "Zenodo", "url": "https://zenodo.org/"}
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Research Methods & Guidelines",
+        "description": "Methodological guidance and resources for conducting high-quality research.",
+        "contributions": [
+          {
+            "title": "Systematic Review Protocol for SE Research",
+            "description": "Guidelines and tools for conducting systematic literature reviews in software engineering, including planning, execution, and reporting.",
+            "image": "./images/contributions/guidelines.jpg",
+            "tags": [
+              {"label": "PRISMA Guidelines", "url": "http://www.prisma-statement.org"},
+              {"label": "Zenodo", "url": "https://zenodo.org"}
+            ]
+          },
+          {
+            "title": "Guidelines for Promoting Software Product Line Experiments",
+            "description": "Guidelines to support promoting experiments in SPL with actual examples, facilitate the conduction of experiments in the SPL area, and contribute to mitigate threats to validity) indicate that the proposed guidelines are helpful, in particular, for SPL researchers and practitioners active.",
+            "image": "./images/contributions/guidelines.jpg",
+            "tags": [
+              {"label": "Paper", "url": "https://www-di.inf.puc-rio.br/~kalinowski//publications/FurtadoOK21.pdf"}
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Evidence & Knowledge Resources",
+        "description": "Surveys and evidence syntheses, including systematic reviews, mapping studies, and multivocal reviews.",
+        "contributions": [
+          {
+            "title": "Systematic Review: AI Engineering Practices in Industry",
+            "description": "Comprehensive systematic review analyzing current practices, challenges, and opportunities in AI engineering across industry sectors.",
+            "image": "./images/contributions/paper.jpg",
+            "tags": [
+              {"label": "TSE", "url": "https://ieeexplore.ieee.org"},
+              {"label": "Zenodo", "url": "https://zenodo.org"}
+            ]
+          },
+          {
+            "title": "Mapping Study: Human Aspects in Software Teams",
+            "description": "Systematic mapping study identifying key factors influencing team collaboration, communication, and well-being in software development.",
+            "image": "./images/contributions/paper.jpg",
+            "tags": [
+              {"label": "CHASE", "url": "https://www.acm.org"},
+              {"label": "Zenodo", "url": "https://zenodo.org"}
+            ]
+          },
+          {
+            "title": "Multivocal Review: ML Testing and Quality Assurance",
+            "description": "Multivocal review synthesizing knowledge from academic research and industry practice on testing and quality assurance for ML systems.",
+            "image": "./images/contributions/paper.jpg",
+            "tags": [
+              {"label": "JSS", "url": "https://www.springer.com"},
+              {"label": "Zenodo", "url": "https://zenodo.org"}
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
