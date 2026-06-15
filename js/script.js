@@ -500,12 +500,11 @@ function renderContributionCategories(groups) {
     const card = document.createElement('div');
     card.className = 'contribution-category-card';
     
-    // Get the image from the first contribution in this group
-    const firstImage = group.contributions?.[0]?.image || './images/Team.jpeg';
+    console.log(group.groupImage)
     
     card.innerHTML = `
       <div class="contribution-category-card__image-wrap">
-        <img class="contribution-category-card__image" src="${firstImage}" alt="${group.title}">
+        <img class="contribution-category-card__image" src="${group.groupImage || './images/Team.jpeg' }" alt="${group.title}">
       </div>
       <div class="contribution-category-card__content">
         <h3 class="contribution-category-card__title">${group.title}<span class="contribution-category-card__icon" aria-hidden="true">↗</span></h3>

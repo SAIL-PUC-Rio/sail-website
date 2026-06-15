@@ -6,6 +6,7 @@
       {
         "title": "Books",
         "description": "Books, handbooks, textbooks, and educational materials.",
+        "groupImage": "./images/contributions/books.jpg",
         "contributions": [
           {
             "title": "Handbook on Teaching Empirical Software Engineering",
@@ -39,6 +40,7 @@
       {
         "title": "Frameworks, Standards & Technologies",
         "description": "Methods, frameworks, standards, maturity models, best practices, software/AI tools, patents, and platforms.",
+        "groupImage": "./images/contributions/framework.jpg",
         "contributions": [
           {
             "title": "POLARIS: A Framework to Guide the Development of Trustworthy AI Systems.",
@@ -61,6 +63,7 @@
       {
         "title": "Evidence & Knowledge Resources",
         "description": "Surveys and evidence syntheses, including systematic reviews, mapping studies, and multivocal reviews.",
+        "groupImage": "./images/contributions/paper.jpg",
         "contributions": [
            {
             "title": "Constructive Patterns for Human-Centered Tech Hiring",
