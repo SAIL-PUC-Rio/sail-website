@@ -1,0 +1,904 @@
+{
+     "teamPage": {
+    "title": "Meet our Team",
+    "groups": [
+      {
+        "title": "Coordination",
+        "members": [
+          {
+            "name": "Marcos Kalinowski",
+            "role": "Lab Coordinator",
+            "bio": "",
+            "photo": "./images/people/Kalinowski.jpg",
+            "links": [
+              {
+                "label": "Google Scholar",
+                "url": "https://scholar.google.com/citations?user=tKCYoHsAAAAJ&hl=pt-BR"
+              },
+              {
+                "label": "GitHub",
+                "url": "https://github.com/profkalinowski"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/kalinowski/"
+              },
+              {
+                "label": "Website",
+                "url": "https://www-di.inf.puc-rio.br/~kalinowski/index.html"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Post-docs",
+        "members": [
+          {
+            "name": "Allysson Allex Araújo",
+            "role": "Post-doctoral Researcher",
+            "bio": "",
+            "photo": "./images/people/Allysson Allex Araújo.jpg",
+            "links": [
+              {
+                "label": "Google Scholar",
+                "url": "https://scholar.google.com.br/citations?user=ludS9IAAAAAJ"
+              },
+              {
+                "label": "GitHub",
+                "url": "https://github.com/allyssonallex"
+              },
+              {
+                "label": "Lattes",
+                "url": "http://lattes.cnpq.br/1768955171390815"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/allyssonaraujo"
+              },
+              {
+                "label": "Website",
+                "url": "https://allyssonallex.github.io/"
+              }
+            ]
+          },
+          {
+            "name": "Eduardo Kinder Almentero",
+            "role": "Post-doctoral Researcher",
+            "bio": "",
+            "photo": "./images/people/Eduardo Kinder Almentero.jpg",
+            "links": [
+              {
+                "label": "Google Scholar",
+                "url": "https://scholar.google.com/citations?user=4cxrinUAAAAJ&hl=pt-BR"
+              },
+              {
+                "label": "GitHub",
+                "url": "https://github.com/ekalmentero"
+              },
+              {
+                "label": "Lattes",
+                "url": "lattes.cnpq.br/8851661551732110"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "linkedin.com/in/almentero"
+              },
+              {
+                "label": "Website",
+                "url": "https://ekalmentero.github.io/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "PhD",
+        "members": [
+          {
+            "name": "Anrafel Fernandes Pereira",
+            "role": "PhD Candidate",
+            "bio": "",
+            "photo": "./images/people/Anrafael Fernandes.jpg",
+            "links": [
+              {
+                "label": "Google Scholar",
+                "url": "https://scholar.google.com.br/citations?hl=pt-BR&user=V3zIirAAAAAJ"
+              },
+              {
+                "label": "GitHub",
+                "url": "https://github.com/Anrafel"
+              },
+              {
+                "label": "Lattes",
+                "url": "http://lattes.cnpq.br/6711819845096632"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/anrafel-fernandes-75280720/"
+              }
+            ]
+          },
+          {
+            "name": "Antonio Pedro Santos Alves",
+            "role": "PhD Candidate",
+            "bio": "",
+            "photo": "./images/people/Antonio Pedro Santos Alves.jpeg",
+            "links": [
+              {
+                "label": "Google Scholar",
+                "url": "https://scholar.google.com/citations?user=mhgIP2EAAAAJ&hl=pt-BR"
+              },
+              {
+                "label": "GitHub",
+                "url": "https://github.com/antoniopedro98"
+              },
+              {
+                "label": "Lattes",
+                "url": "http://lattes.cnpq.br/2385985653078595"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/antonio-pedro-santos-alves/"
+              }
+            ]
+          },
+          {
+            "name": "Bruno Ferraz",
+            "role": "PhD Candidate",
+            "bio": "",
+            "photo": "./images/people/Bruno Ferraz.jpg",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/bruno-ferraz-pro/"
+              }
+            ]
+          },
+          {
+            "name": "Eduardo Gonçalves Motta",
+            "role": "PhD Student",
+            "bio": "",
+            "photo": "./images/people/Eduardo Gonçalves Motta.jpg",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/eduardo-motta-57146b16a/"
+              }
+            ]
+          },
+          {
+            "name": "Eduardo Zimelewicz",
+            "role": "PhD Student",
+            "bio": "",
+            "photo": "./images/people/Eduardo Zimelewicz.png",
+            "links": [
+              {
+                "label": "Google Scholar",
+                "url": "https://scholar.google.com/citations?user=2qRkFUUAAAAJ&hl=en"
+              },
+              {
+                "label": "GitHub",
+                "url": "https://github.com/EduardoZimelewicz"
+              },
+              {
+                "label": "Lattes",
+                "url": "http://lattes.cnpq.br/9980561291947936"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/eduardo-zimelewicz-89a12683/"
+              }
+            ]
+          },
+          {
+            "name": "José Matheus Carvalho Boaro",
+            "role": "PhD Student",
+            "bio": "",
+            "photo": "./images/people/José Matheus Carvalho Boaro.jpg",
+            "links": [
+              {
+                "label": "Google Scholar",
+                "url": "https://scholar.google.com/citations?user=PuX4YrwAAAAJ&hl=en"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/matheusboaro?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+              }
+            ]
+          },
+          {
+            "name": "Kelly Azevedo Neves",
+            "role": "PhD Candidate",
+            "bio": "",
+            "photo": "./images/people/Kelly Azevedo Neves.jpeg",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/kelly-neves/"
+              }
+            ]
+          },
+          {
+            "name": "Lucas Cordeiro Romão",
+            "role": "PhD Candidate",
+            "bio": "",
+            "photo": "./images/people/Lucas Cordeiro Romão.jpg",
+            "links": [
+              {
+                "label": "Google Scholar",
+                "url": "https://scholar.google.com/citations?user=PngF9CQAAAAJ&hl=en"
+              },
+              {
+                "label": "GitHub",
+                "url": "https://github.com/lcromao"
+              },
+              {
+                "label": "Lattes",
+                "url": "http://lattes.cnpq.br/0173761286232244"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "linkedin.com/in/lcromao"
+              }
+            ]
+          },
+          {
+            "name": "Mauro Marcelino de Oliveira",
+            "role": "PhD Student",
+            "bio": "",
+            "photo": "./images/people/Mauro Marcelino de Oliveira.jpg",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/mauro-marcelino-de-oliveira-436399265/"
+              }
+            ]
+          },
+          {
+            "name": "Paloma Guenes",
+            "role": "PhD Student",
+            "bio": "",
+            "photo": "./images/people/Paloma Guenes Costa.jpg",
+            "links": [
+              {
+                "label": "Google Scholar",
+                "url": "https://scholar.google.com/citations?user=Tf7djMAAAAAJ&hl=pt-PT"
+              },
+              {
+                "label": "Lattes",
+                "url": "http://lattes.cnpq.br/7326010081436715"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/palomaguenes"
+              }
+            ]
+          },
+          {
+            "name": "Rafael da Silva Tomaz",
+            "role": "PhD Student",
+            "bio": "",
+            "photo": "./images/people/Rafael da Silva Tomaz.jpg",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/rafaelstomaz/"
+              }
+            ]
+          },
+          {
+            "name": "Raphael Oliveira Cabral",
+            "role": "PhD Student",
+            "bio": "",
+            "photo": "./images/people/Raphael Oliveira Cabral.jpg",
+            "links": [
+              {
+                "label": "Google Scholar",
+                "url": "https://scholar.google.com.br/citations?user=KEMMzwkAAAAJ&hl=pt-BR"
+              },
+              {
+                "label": "GitHub",
+                "url": "https://github.com/rcabral"
+              },
+              {
+                "label": "Lattes",
+                "url": "http://lattes.cnpq.br/6061262925044733"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "www.linkedin.com/in/raphael-cabral-59876b13"
+              }
+            ]
+          },
+          {
+            "name": "Silvio Alonso",
+            "role": "PhD Candidate",
+            "bio": "",
+            "photo": "./images/people/Silvio Alonso.jpg",
+            "links": [
+              {
+                "label": "Google Scholar",
+                "url": "https://scholar.google.com/citations?user=a1kkuNoAAAAJ&hl=en&oi=sra"
+              },
+              {
+                "label": "GitHub",
+                "url": "https://github.com/silvioalonso"
+              },
+              {
+                "label": "Lattes",
+                "url": "http://lattes.cnpq.br/3095127742493644"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/silvioalonso/"
+              }
+            ]
+          },
+          {
+            "name": "Tatiane Ornelas Martins Alves",
+            "role": "PhD Student",
+            "bio": "",
+            "photo": "./images/people/Tatiane Ornelas Martins Alves.jpg",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/tatiane-ornelas/"
+              }
+            ]
+          },
+          {
+            "name": "Wallace Albertini Boquimpani",
+            "role": "PhD Student",
+            "bio": "",
+            "photo": "./images/people/Wallace Albertini Boquimpani.jpg",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/wallace-albertini/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "MSc",
+        "members": [
+          {
+            "name": "Antônio Brandão Lima",
+            "role": "MSc Student",
+            "bio": "",
+            "photo": "./images/people/Antônio Brandão Lima.png",
+            "links": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/toniobrandao"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/antoniobrandaolima/"
+              }
+            ]
+          },
+          {
+            "name": "Bernardo Bulgarelli",
+            "role": "MSc Student",
+            "bio": "",
+            "photo": "./images/people/Bernardo Bulgarelli.jpg",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/bernardobulgarelli-b610ab189/"
+              }
+            ]
+          },
+          {
+            "name": "Carolina Brandão",
+            "role": "MSc Student",
+            "bio": "",
+            "photo": "./images/people/Carolina Brandao.jpeg",
+            "links": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/CarolTherstine"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/carolina-brand%C3%A3o-175a08179/"
+              },
+              {
+                "label": "Website",
+                "url": "https://therstine.com/"
+              }
+            ]
+          },
+          {
+            "name": "Gabriel Moreira Mariquito de Sousa",
+            "role": "MSc Student",
+            "bio": "",
+            "photo": "./images/people/Gabriel Moreira Mariquito de Sousa.jpg",
+            "links": [
+              {
+                "label": "Google Scholar",
+                "url": "https://scholar.google.com.br/citations?user=Lq1m3KQAAAAJ&hl=pt-BR"
+              },
+              {
+                "label": "GitHub",
+                "url": "https://github.com/gabrielmariquito"
+              },
+              {
+                "label": "Lattes",
+                "url": "https://lattes.cnpq.br/9003518572799104"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/gabrielmariquito/"
+              },
+              {
+                "label": "Website",
+                "url": "https://gabrielmariquito.com/"
+              }
+            ]
+          },
+          {
+            "name": "Iury Lima Rosal",
+            "role": "MSc Student",
+            "bio": "",
+            "photo": "./images/people/Iury Lima Rosal.png",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/iuryrosal/"
+              }
+            ]
+          },
+          {
+            "name": "Laura Mendonça da Glória Luz",
+            "role": "MSc Student",
+            "bio": "",
+            "photo": "./images/people/Laura Mendonça da Glória Luz.jpg",
+            "links": [
+              {
+                "label": "Lattes",
+                "url": "http://lattes.cnpq.br/9343122880643902"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/laura-mendonca-da-gloria-luz/"
+              },
+              {
+                "label": "GitHub",
+                "url": "https://github.com/l-luz"
+              }
+            ]
+          },
+          {
+            "name": "Luiz Fellipe Augusto",
+            "role": "MSc Student",
+            "bio": "",
+            "photo": "./images/people/Luiz Fellipe Augusto.jpg",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/luiz-fellipe-augusto/"
+              }
+            ]
+          },
+          {
+            "name": "Matheus Pullig Soranço de Carvalho",
+            "role": "MSc Student",
+            "bio": "",
+            "photo": "./images/people/Matheus Pullig Soranco de Carvalho.jpg",
+            "links": [
+              {
+                "label": "Google Scholar",
+                "url": "https://scholar.google.com.br/citations?user=a-HhXsYAAAAJ&hl=pt-BR"
+              },
+              {
+                "label": "GitHub",
+                "url": "https://github.com/matheussoranco"
+              },
+              {
+                "label": "Lattes",
+                "url": "https://lattes.cnpq.br/2638856314649555"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/matheus-soranço-4a8b67210?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+              },
+              {
+                "label": "Website",
+                "url": "https://polymathesblog.wordpress.com/"
+              }
+            ]
+          },
+          {
+            "name": "Paulo de Tarso Fernandes",
+            "role": "MSc Candidate",
+            "bio": "",
+            "photo": "./images/people/Paulo de Tarso Fernandes.jpg",
+            "links": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/PDTCCLF"
+              },
+              {
+                "label": "Lattes",
+                "url": "http://lattes.cnpq.br/9837202289490834"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/pdtcclf"
+              }
+            ]
+          },
+          {
+            "name": "Rodrigo Lemos Fernandes",
+            "role": "MSc Student",
+            "bio": "",
+            "photo": "./images/people/Rodrigo Lemos Fernandes.png",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/rodrigolemosdev/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Undergraduate",
+        "members": [
+          {
+            "name": "Arthur Augusto Claro Sardella",
+            "role": "Undergraduate Student",
+            "bio": "",
+            "photo": "./images/people/Arthur Augusto Claro Sardella.jpg",
+            "links": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/DoctorTangerina"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/arthursardella/"
+              }
+            ]
+          },
+          {
+            "name": "Henrique Carvalho e Silva",
+            "role": "Undergraduate Student",
+            "bio": "",
+            "photo": "./images/people/Henrique Carvalho e Silva.jpg",
+            "links": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/Iquecs2005"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/henrique-carvalho-a413892b0/"
+              }
+            ]
+          },
+          {
+            "name": "Luan Carlos Almada Braga",
+            "role": "Undergraduate Student",
+            "bio": "",
+            "photo": "./images/people/Luan Carlos Almada Braga.jpg",
+            "links": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/Lbragaa"
+              },
+              {
+                "label": "Lattes",
+                "url": "http://lattes.cnpq.br/4821319954038629"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/luan-braga-22a3b3323/"
+              }
+            ]
+          },
+          {
+            "name": "Marcos Turo Fernandes Junior",
+            "role": "Undergraduate Student",
+            "bio": "",
+            "photo": "./images/people/Marcos Turo Fernandes Junior.jpeg",
+            "links": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/MTuro"
+              },
+              {
+                "label": "Lattes",
+                "url": "http://lattes.cnpq.br/4821319954038629"
+              },
+              {
+                "label": "LinkedIn",
+                "url": " https://www.linkedin.com/in/marcos-turo/"
+              }
+            ]
+          },
+          {
+            "name": "Rafaela Bessa Garcia de Oliveira",
+            "role": "Undergraduate Student",
+            "bio": "",
+            "photo": "./images/people/Rafaela Bessa Garcia de Oliveira.jpeg",
+            "links": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/bets18"
+              },
+              {
+                "label": "Lattes",
+                "url": "http://lattes.cnpq.br/3923713590090988"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/rafaelabessa/"
+              }
+            ]
+          },
+          {
+            "name": "Thiago Camerato",
+            "role": "Undergraduate Student",
+            "bio": "",
+            "photo": "./images/people/Thiago Camerato.jpeg",
+            "links": [
+              {
+                "label": "GitHub",
+                "url": " https://github.com/thiagocamerato757"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/thiago-camerato-2931841a6/"
+              }
+            ]
+          },
+          {
+            "name": "Yasmin Machado Sandes",
+            "role": "Undergraduate Student",
+            "bio": "",
+            "photo": "./images/people/Yasmin Machado Sandes.jpg",
+            "links": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/yasmsandes"
+              },
+              {
+                "label": "Lattes",
+                "url": "https://lattes.cnpq.br/2931750025809151"
+              },
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/yas-msandes/"
+              }
+            ]
+          },
+          {
+            "name": "Victória Cruz de Figueiredo",
+            "role": "Undergraduate Student",
+            "bio": "",
+            "photo": "./images/people/Victoria Cruz de Figueiredo.png",
+            "links": [
+              {
+                "label": "GitHub",
+                "url": "https://github.com/victoriacruz-py"
+              },
+              {
+                "label": "Lattes",
+                "url": "https://lattes.cnpq.br/5991872852036425"
+              },              
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/victoria-cruz-91a796356"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Former Post-docs",
+        "members": [
+          {
+            "name": "Romeu Ferreira de Oliveira (Post-doc, Informatics, PUC-Rio, 2026)",
+            "role": "Former Student",
+            "bio": "",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/romeu-ferreira-esmc2/"
+              },
+              {
+                "label": "Scholar",
+                "url": "https://scholar.google.com/citations?view_op=list_works&hl=en&hl=en&user=XNojOXMAAAAJ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Former PhD Students",
+        "members": [
+          {
+            "name": "Hugo Villamizar (D.Sc., Informatics, PUC-Rio, 2023)",
+            "role": "Former Student",
+            "bio": "",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/hrguarinv/"
+              },
+              {
+                "label": "Scholar",
+                "url": "https://scholar.google.com/citations?hl=en&user=XgI_UaEAAAAJ"
+              }
+            ]
+          },
+          {
+            "name": "Eduardo Moreira Fernandes (D.Sc., Informatics, PUC-Rio, 2021)",
+            "role": "Former Student",
+            "bio": "",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/eduardomorfernandes/"
+              },
+              {
+                "label": "Scholar",
+                "url": "https://scholar.google.com/citations?hl=en&user=bPnuCiMAAAAJ"
+              }
+            ]
+          },
+          {
+            "name": "Diogo Silveira Mendonça (D.Sc., Informatics, PUC-Rio, 2019)",
+            "role": "Former Student",
+            "bio": "",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/diogomendonca/"
+              },
+              {
+                "label": "Scholar",
+                "url": "https://scholar.google.com/citations?hl=en&user=bwkYcu4AAAAJ"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Former MSc Students",
+        "members": [
+          {
+            "name": "Júlia Condé Araújo (M.Sc., Informatics, PUC-Rio, 2026)",
+            "role": "Former Student",
+            "bio": "",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/elena-santos-93847/"
+              },
+              {
+                "label": "Scholar",
+                "url": "https://scholar.google.com/citations?user=elenasantos2024"
+              }
+            ]
+          },
+          {
+            "name": "Marina Condé Araújo (M.Sc., Informatics, PUC-Rio, 2026)",
+            "role": "Former Student",
+            "bio": "",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/elena-santos-93847/"
+              },
+              {
+                "label": "Scholar",
+                "url": "https://scholar.google.com/citations?user=elenasantos2024"
+              }
+            ]
+          },
+          {
+            "name": "Mauro Marcelino (M.Sc., Informatics, PUC-Rio, 2026)",
+            "role": "Former Student",
+            "bio": "",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/elena-santos-93847/"
+              },
+              {
+                "label": "Scholar",
+                "url": "https://scholar.google.com/citations?user=elenasantos2024"
+              }
+            ]
+          },
+          {
+            "name": "Wallace Albertini (M.Sc., Informatics, PUC-Rio, 2026)",
+            "role": "Former Student",
+            "bio": "",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/marcus-lopez-research/"
+              },
+              {
+                "label": "Scholar",
+                "url": "https://scholar.google.com/citations?user=marcuslopez2024"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Former BSc Students",
+        "members": [
+          {
+            "name": "Júlia Condé Araújo (M.Sc., 2026)",
+            "role": "Former Student",
+            "bio": "",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/elena-santos-93847/"
+              },
+              {
+                "label": "Scholar",
+                "url": "https://scholar.google.com/citations?user=elenasantos2024"
+              }
+            ]
+          },
+          {
+            "name": "Marina Condé Araújo (M.Sc., 2026)",
+            "role": "Former Student",
+            "bio": "",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/elena-santos-93847/"
+              },
+              {
+                "label": "Scholar",
+                "url": "https://scholar.google.com/citations?user=elenasantos2024"
+              }
+            ]
+          },
+          {
+            "name": "Mauro Marcelino (M.Sc., 2026)",
+            "role": "Former Student",
+            "bio": "",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/elena-santos-93847/"
+              },
+              {
+                "label": "Scholar",
+                "url": "https://scholar.google.com/citations?user=elenasantos2024"
+              }
+            ]
+          },
+          {
+            "name": "Marcus López",
+            "role": "Former Student",
+            "bio": "",
+            "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/marcus-lopez-research/"
+              },
+              {
+                "label": "Scholar",
+                "url": "https://scholar.google.com/citations?user=marcuslopez2024"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

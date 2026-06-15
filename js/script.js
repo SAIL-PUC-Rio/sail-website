@@ -15,8 +15,34 @@ const page = document.body.dataset.page || 'home';
 
 async function init() {
   try {
-    const response = await fetch('./data/data.json');
-    const data = await response.json();
+    const [contributions_res, data_res, hero_res, honors_res, publications_res, research_areas_res, team_page_res ] = await Promise.all([
+      fetch('./data/contributions.json'),
+      fetch('./data/data.json'),
+      fetch('./data/hero.json'),
+      fetch('./data/honors.json'),
+      fetch('./data/publications.json'),
+      fetch('./data/research_areas.json'),
+      fetch('./data/team_page.json')
+    ]);
+
+    const contributions_data = await contributions_res.json();
+    const global_data = await data_res.json();
+    const hero_data = await hero_res.json();
+    const honors_data = await honors_res.json();
+    const publications_data = await publications_res.json();
+    const research_areas_data = await research_areas_res.json();
+    const team_data = await team_page_res.json();
+
+    const data = {
+      ...contributions_data,
+      ...global_data,
+      ...hero_data,
+      ...honors_data,
+      ...publications_data,
+      ...research_areas_data,
+      ...team_data
+    };
+
     state.data = data;
 
     bindGlobalContent(data);
@@ -35,7 +61,12 @@ async function init() {
     handleCrossPageScroll();
   } catch (error) {
     console.error('Could not load site data:', error);
-    document.body.innerHTML = '<main class="container" style="padding: 3rem 0;"><h1>Unable to load the website data.</h1><p>Please make sure <strong>data.json</strong> is inside the <strong>data</strong> folder and the site is running through a local server.</p></main>';
+    document.body.innerHTML = `
+      <main class="container" style="padding: 3rem 0;">
+        <h1>Unable to load the website data.</h1>
+        <p>Please make sure your segregated JSON files are properly formatted inside the <strong>data</strong> folder.</p>
+      </main>
+    `;
   }
 }
 

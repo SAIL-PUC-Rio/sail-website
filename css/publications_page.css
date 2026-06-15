@@ -1,0 +1,63 @@
+#publicationsPageTitle {
+  margin-bottom: 0px !important;
+}
+
+.publications-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.publication-search {
+  width: min(100%, 560px);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.95rem 1.1rem;
+  background: #fff;
+}
+
+.publication-toolbar-note {
+  color: var(--text-soft);
+  font-size: 0.95rem;
+}
+
+.publication-year + .publication-year {
+  margin-top: 2.5rem;
+}
+
+.publication-year__title {
+  margin: 0 0 1rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.publication-list {
+  display: grid;
+  gap: 1rem;
+}
+.publication-item {
+  padding: 1.35rem 1.4rem;
+}
+.publication-item__title {
+  margin: 0;
+  font-size: 1.15rem;
+  line-height: 1.45;
+}
+.publication-item__authors,
+.publication-item__venue {
+  margin: 0.7rem 0 0;
+  color: var(--text-soft);
+  line-height: 1.65;
+}
+.publication-item__actions {
+  margin-top: 1rem;
+}
+.bibbase-shell {
+  background: rgba(247, 244, 236, 0.96) !important;
+  box-shadow: none !important;
+}
+
+#publicationsHero{
+  padding-bottom: 1rem !important;
+}

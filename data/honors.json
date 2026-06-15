@@ -1,0 +1,107 @@
+{
+    "honorsIntro": "Recognition of the achievements, contributions, and excellence of SAIL lab members.",
+    "honorsAwardsPage": {
+    "title": "Honors & Awards",
+    "intro": "Recognition of the achievements, contributions, and excellence of SAIL lab members."
+  },
+  "honorsAwards": [
+    {
+      "id": "award-001",
+      "title": "ACM Distinguished Paper Award",
+      "year": "CHASE 2026",
+      "description": "Paper \"A Quasi-Experimental Evaluation of Coaching to Mitigate the Impostor Phenomenon in Early-Career Software Engineers\".",
+      "image": "./images/prizes/2026_CHASE_DPA.jpg",
+      "links": [
+        {"label": "ArXiv Preprint", "url": "https://arxiv.org/abs/2602.13774"}
+      ]
+    },
+    {
+      "id": "award-002",
+      "title": "Winner of the LLM Testing Competition",
+      "year": "DeepTest@ICSE 2026",
+      "description": "\"ATLAS: Adaptive Test Learning And Selection\" was the winner for evaluating LLM-based automotive assistants on public and BMW Group prototypes.",
+      "image": "./images/prizes/2026_DeepTest_Competition.jpg",
+      "links": [
+        {"label": "Summary Paper", "url": "https://dl.acm.org/doi/10.1145/3786154.3796500"},
+        {"label": "Results", "url": "https://arxiv.org/abs/2604.12615"}
+      ]
+    },
+    {
+      "id": "award-003",
+      "title": "Student Research Prize",
+      "year": 2024,
+      "description": "Recognition for innovative research work by graduate students in empirical software engineering.",
+      "image": "./images/prizes/prizes.jpg",
+      "links": [
+  
+      ]
+    },
+    {
+      "id": "award-004",
+      "title": "Innovation in AI Engineering",
+      "year": 2024,
+      "description": "Award for developing novel methodologies and tools for AI system engineering and evaluation.",
+      "image": "./images/prizes/prizes.jpg",
+      "links": [
+
+      ]
+    },
+    {
+      "id": "award-005",
+      "title": "Best Collaboration Award",
+      "year": 2024,
+      "description": "Recognition of outstanding industry-academia partnership and research collaboration.",
+      "image": "./images/prizes/prizes.jpg",
+      "links": [
+
+      ]
+    },
+    {
+      "id": "award-006",
+      "title": "Mentor of the Year",
+      "year": 2023,
+      "description": "Awarded to faculty members demonstrating exceptional mentorship and guidance to students.",
+      "image": "./images/prizes/prizes.jpg",
+      "links": [
+
+      ]
+    },
+    {
+      "id": "award-007",
+      "title": "Industry Innovation Partnership",
+      "year": 2023,
+      "description": "Recognition for establishing and maintaining productive long-term partnerships with industry organizations in software engineering.",
+      "image": "./images/prizes/prizes.jpg",
+      "links": [
+
+      ]
+    },
+    {
+      "id": "award-008",
+      "title": "Outstanding Doctoral Dissertation",
+      "year": 2022,
+      "description": "Award for exceptional doctoral research contributing to advances in AI systems and software engineering practices.",
+      "image": "./images/prizes/prizes.jpg",
+      "links": [
+      ]
+    },
+    {
+      "id": "award-009",
+      "title": "Community Leadership Award",
+      "year": 2022,
+      "description": "Recognition for leadership in software engineering community initiatives, workshops, and knowledge sharing.",
+      "image": "./images/prizes/prizes.jpg",
+      "links": [
+      ]
+    },
+    {
+      "id": "award-010",
+      "title": "Technology Innovation Award",
+      "year": 2022,
+      "description": "Awarded for development of innovative tools and technologies for AI and software engineering systems.",
+      "image": "./images/prizes/prizes.jpg",
+      "links": [
+      ]
+    }
+  ]
+}

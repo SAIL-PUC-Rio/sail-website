@@ -1,0 +1,106 @@
+
+.team-group + .team-group {
+  margin-top: 4rem;
+}
+.team-group__description {
+  margin: -1rem 0 0;
+  color: var(--text-soft);
+  max-width: 70ch;
+}
+.team-grid {
+  display: grid;  
+  grid-template-columns: repeat(4, minmax(0, 1fr)); /* number of items per page in 'meet our team' */
+  gap: 1.5rem;
+  margin-top: 1.75rem;
+}
+.team-card {
+  overflow: hidden;
+}
+.team-card__media img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+.team-card__body {
+  padding: 1.25rem 1.25rem 1.4rem;
+}
+.team-card__name {
+  margin: 0;
+  font-size: 1.2rem;
+  
+  display: flex;
+  align-items: center;
+}
+.team-card__role {
+  margin: 0.45rem 0 0 0;
+  color: var(--accent-dark);
+  font-weight: 600;
+}
+.team-card__bio {
+  margin: 0.85rem 0 0;
+  color: var(--text-soft);
+  line-height: 1.7;
+  font-size: 0.98rem;
+}
+.team-card__meta {
+  margin-top: 1rem;
+}
+.team-card__meta a {
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+.team-card__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1rem;
+}
+.team-card__link {
+  border: 1px solid rgba(0,0,0,.12);
+  border-radius: 3px;
+  padding: 0.45rem 0.8rem;
+  background: #fff;
+  transition: .2s ease;
+}
+.team-card__link:hover {
+  transform: translateY(-1px);
+  border-color: var(--accent);
+}
+
+/* Former Students List Styling */
+.former-students-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.75rem 0 0;
+}
+.former-student-item {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.85rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.former-student-item:last-child {
+  border-bottom: none;
+}
+.former-student-name {
+  font-weight: 600;
+  min-width: 500px;
+  color: var(--text);
+}
+.former-student-links {
+  display: flex;
+  gap: 0.75rem;
+}
+.former-student-link {
+  border: 1px solid rgba(0,0,0,.12);
+  border-radius: 3px;
+  padding: 0.4rem 0.75rem;
+  background: #fff;
+  font-size: 0.9rem;
+  transition: .2s ease;
+}
+.former-student-link:hover {
+  transform: translateY(-1px);
+  border-color: var(--accent);
+}

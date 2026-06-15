@@ -1,0 +1,121 @@
+.hero-slider {
+  position: relative;
+  overflow: hidden;
+  border-radius: 3px;
+  min-height: 680px;
+  background: #ddd;
+}
+.hero-slides {
+  display: flex;
+  transition: transform .6s ease;
+  height: 100%;
+}
+.hero-slide {
+  position: relative;
+  min-width: 100%;
+  min-height: 680px;
+}
+.hero-slide__image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hero-slide__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,.50), rgba(0,0,0,.15));
+}
+.hero-slide__content {
+  position: absolute;
+  left: 50%;
+  bottom: 4rem;
+  transform: translateX(-50%);
+  width: min(100% - 40px, 980px);
+  color: #fff;
+  text-align: center;
+}
+.hero-slide__title {
+  font-size: clamp(2rem, 5vw, 4.2rem);
+  line-height: 1;
+  margin: 0 0 0.8rem;
+  font-weight: 800;
+}
+.hero-slide__text {
+  font-size: 1.15rem;
+  max-width: 780px;
+  margin: 0 auto;
+}
+.hero-dots {
+  position: absolute;
+  left: 50%;
+  bottom: 1.35rem;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 0.55rem;
+}
+.hero-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  border: 0;
+  background: rgba(255,255,255,.6);
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.hero-dot:hover {
+  background: rgba(255,255,255,.9);
+}
+.hero-dot.is-active { background: #fff; }
+
+.hero-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 46px;
+  height: 46px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--surface);
+  color: var(--text);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  z-index: 10;
+}
+.hero-arrow:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+  transform: translateY(-50%) scale(1.05);
+}
+.hero-arrow svg {
+  display: block;
+}
+.hero-arrow--prev {
+  left: 1rem;
+}
+.hero-arrow--next {
+  right: 1rem;
+}
+
+.page-hero__grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 2rem;
+  overflow: hidden;
+}
+.page-hero__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.page-hero__media img {
+  width: 100%;
+  height: 100%;
+  min-height: 320px;
+  object-fit: cover;
+}
