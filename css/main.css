@@ -1,0 +1,19 @@
+/* 1. Layout Sections & Pages */
+@import 'hero_section_component.css';
+@import 'services_and_specialization.css';
+@import 'team_component.css';
+@import 'content_component.css';
+@import 'contributions_page.css';
+@import 'contributions_and_impact_component.css';
+
+/* 2. Specific Pages & Cards */
+@import 'publications_page.css';
+@import 'honors_awards_page.css';
+@import 'news_card_component.css';
+
+/* 3. Footer */
+@import 'footer_component.css';
+
+
+/* 4. Global foundation & variables */
+@import 'styles.css';
