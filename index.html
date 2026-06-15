@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Lora:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="main.css" />
+  <link rel="stylesheet" href="css/main.css" />
   <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
 </head>
 <body data-page="home">
@@ -93,14 +93,20 @@
 
     <section class="section-spacing" id="services">
       <div class="container">
-        <h2 class="section-title" data-bind="servicesTitle">Services</h2>
+        <div class="section-heading-row">
+          <h2 class="section-title" data-bind="servicesTitle">Services</h2>
+          <a class="ghost-button" id="publicationsMoreLink" href="services.html">See more</a>
+        </div>
         <div class="services-grid" id="servicesGrid"></div>
       </div>
     </section>
 
     <section class="section-spacing" id="contributions">
       <div class="container">
-        <h2 class="section-title">Contributions & Impact</h2>
+        <div class="section-heading-row">
+          <h2 class="section-title">Contributions & Impact</h2>
+          <a class="ghost-button" href="contributions.html">See more</a>
+        </div>
         <p class="other-section-intro" id="contributionsIntro"></p>
         <div class="contributions-slider" id="contributionsSlider"></div>
       </div>

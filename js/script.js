@@ -15,13 +15,22 @@ const page = document.body.dataset.page || 'home';
 
 async function init() {
   try {
-    const [contributions_res, data_res, hero_res, honors_res, publications_res, research_areas_res, team_page_res ] = await Promise.all([
+    const [ contributions_res, 
+            data_res,
+            hero_res,
+            honors_res,
+            publications_res,
+            research_areas_res,
+            services_res, 
+            team_page_res 
+          ] = await Promise.all([
       fetch('./data/contributions.json'),
       fetch('./data/data.json'),
       fetch('./data/hero.json'),
       fetch('./data/honors.json'),
       fetch('./data/publications.json'),
       fetch('./data/research_areas.json'),
+      fetch('./data/services.json'),
       fetch('./data/team_page.json')
     ]);
 
@@ -31,6 +40,7 @@ async function init() {
     const honors_data = await honors_res.json();
     const publications_data = await publications_res.json();
     const research_areas_data = await research_areas_res.json();
+    const services_data = await services_res.json();
     const team_data = await team_page_res.json();
 
     const data = {
@@ -40,6 +50,7 @@ async function init() {
       ...honors_data,
       ...publications_data,
       ...research_areas_data,
+      ...services_data,
       ...team_data
     };
 
@@ -54,6 +65,7 @@ async function init() {
     if (page === 'home') initHomePage(data);
     if (page === 'team') initTeamPage(data);
     if (page === 'publications') initPublicationsPage(data);
+    if (page === 'services') initServicesPage(data);
     if (page === 'contributions') initContributionsPage(data);
     if (page === 'honors') initHonorsPage(data);
 
@@ -112,7 +124,9 @@ function bindGlobalContent(data) {
         ? `${data.contributionsPage?.title || 'Contributions'} · ${data.site.title}`
         : page === 'honors'
           ? `${data.honorsAwardsPage?.title || 'Honors & Awards'} · ${data.site.title}`
-          : data.site.title;
+          : page === 'services'
+            ? `${data.servicesPage?.title || 'Services'} · ${data.site.title}`
+            : data.site.title;
 
   document.documentElement.lang = data.site.language || 'en';
   $('[name="description"]')?.setAttribute('content', data.site.description || '');
@@ -470,25 +484,32 @@ function showSpecializationGallery(index) {
 }
 
 function renderServices(items) {
-  const grid = $('#servicesGrid');
-  const template = $('#serviceCardTemplate');
-  grid.innerHTML = '';
+ const mount = $('#servicesGrid');
+  if (!mount) return;
+  mount.innerHTML = '';
+
+  const grid = document.createElement('div');
+  grid.className = 'service-grid';
 
   items.forEach(item => {
-    const node = template.content.firstElementChild.cloneNode(true);
-    const wrapper = item.url ? document.createElement('a') : document.createElement('div');
-    if (item.url) {
-      wrapper.href = item.url;
-      wrapper.target = '_blank';
-      wrapper.rel = 'noopener noreferrer';
-    }
-    node.querySelector('.service-card__image').src = item.image;
-    node.querySelector('.service-card__image').alt = item.title;
-    node.querySelector('.service-card__title').textContent = item.title;
-    node.querySelector('.service-card__text').textContent = item.description;
-    wrapper.appendChild(node);
-    grid.appendChild(wrapper);
+    const service = document.createElement('service');
+    service.className = 'service-card';
+    se.innerHTML = `
+      <div class="service-card__image">
+        <img src="${item.image || './images/Team.jpeg'}" alt="${item.title}">
+      </div>
+      <div class="honors-card__body">
+        <h3 class="service-card__title">${item.title}</h3>
+        <p class="service-card__text">${item.description || ''}</p>
+      </div>
+    `;
+
+    console.log(service)
+    grid.appendChild(service);
   });
+  console.log(grid)
+  mount.appendChild(grid);  
+  
 }
 
 function renderContributionCategories(groups) {
@@ -692,6 +713,38 @@ function renderTeamGroups(groups) {
   });
 }
 
+function renderContributionCategories(groups) {
+  const slider = $('#servicesSlider');
+  if (!slider) return;
+  slider.innerHTML = '';
+
+  groups.forEach(group => {
+    const card = document.createElement('div');
+    card.className = 'service-category-card';
+    
+    // Get the image from the first contribution in this group
+    const firstImage = group.services?.[0]?.image || './images/Team.jpeg';
+    
+    card.innerHTML = `
+      <div class="service-category-card__image-wrap">
+        <img class="service-category-card__image" src="${firstImage}" alt="${group.title}">
+      </div>
+      <div class="service-category-card__content">
+        <h3 class="service-category-card__title">${group.title}<span class="contribution-category-card__icon" aria-hidden="true">↗</span></h3>
+        <p class="service-category-card__description">${group.description || ''}</p>
+      </div>
+    `;
+    
+    // Add click handler to navigate to contributions page and scroll to this category
+    card.addEventListener('click', () => {
+      sessionStorage.setItem('scrollTarget', group.title);
+      window.location.href = 'services.html';
+    });
+    
+    slider.appendChild(card);
+  });
+}
+
 function renderPublicationsPageList(items) {
   const mount = $('#publicationsList');
   const grouped = groupPublicationsByYear(items, state.publicationFilter);
@@ -883,6 +936,11 @@ function stripHtml(html) {
 function initContributionsPage(data) {
   const pageData = data.contributionsPage || {};
   renderContributionGroups(pageData.groups || []);
+}
+
+function initServicesPage(data) {
+  const pageData = data.services || {};
+  renderServices(pageData || []);
 }
 
 function initHonorsPage(data) {
