@@ -45,5 +45,15 @@
       "venue": "Journal of Systems and Software (JSS)",
       "url": "https://www-di.inf.puc-rio.br/~kalinowski//publications/VillamizarKLM24.pdf"
     }
-  ]
+  ],
+  "publicationsPage": {
+    "title": "Publications",
+    "intro": "The list is dynamically generated and takes a few seconds to load. It lists only accepted publications. Click on the years to collapse and use the scrollbar to navigate through the publications. Author versions of all papers are freely available by clicking on the PDF icon.",
+    "bibbase": {
+      "enabled": false,
+      "bibUrl": "",
+      "groupBy": "year",
+      "sort": "year"
+    }
+  }
 }

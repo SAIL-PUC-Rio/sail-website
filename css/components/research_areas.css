@@ -10,17 +10,19 @@
 }
 .research_areas-tab {
   border: 0;
-  background: var(--surface);
-  color: var(--text);
   border-bottom: 4px solid var(--accent);
   border-radius: 3px;
+  padding: 1.25rem 1.3rem;
   min-height: 76px;
   display: flex;
   align-items: center;
+  text-align: left;
   justify-content: space-between;
   gap: 1rem;
-  padding: 1.25rem 1.3rem;
+  background: var(--surface);
+  color: var(--text);
   transition: transform .2s ease, background .2s ease, color .2s ease;
+  
 }
 .research_areas-tab:hover { transform: translateY(-2px); }
 .research_areas-tab.is-active {

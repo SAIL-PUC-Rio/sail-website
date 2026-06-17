@@ -15,22 +15,24 @@ const page = document.body.dataset.page || 'home';
 
 async function init() {
   try {
-    const [contributions_res, data_res, hero_res, honors_res, publications_res, research_areas_res, team_page_res ] = await Promise.all([
+    const [contributions_res, index_res, hero_res, honors_res, publications_res, research_areas_res, services_res, team_page_res ] = await Promise.all([
       fetch('./data/contributions.json'),
-      fetch('./data/data.json'),
+      fetch('./data/index.json'),
       fetch('./data/hero_section.json'),
       fetch('./data/honors.json'),
       fetch('./data/publications.json'),
       fetch('./data/research_areas.json'),
+      fetch('./data/services.json'),
       fetch('./data/team_page.json')
     ]);
 
     const contributions_data = await contributions_res.json();
-    const global_data = await data_res.json();
+    const global_data = await index_res.json();
     const hero_data = await hero_res.json();
     const honors_data = await honors_res.json();
     const publications_data = await publications_res.json();
     const research_areas_data = await research_areas_res.json();
+    const services_data = await services_res.json();
     const team_data = await team_page_res.json();
 
     const data = {
@@ -40,6 +42,7 @@ async function init() {
       ...honors_data,
       ...publications_data,
       ...research_areas_data,
+      ...services_data,
       ...team_data
     };
 
@@ -168,7 +171,18 @@ function initPublicationsPage(data) {
   const pageData = data.publicationsPage || {};
   $('#publicationsPageTitle').textContent = pageData.title || 'Publications';
   $('#publicationsPageIntro').textContent = pageData.intro || '';
+ 
+  const mount = $('#publicationsList');
   
+  if (mount) {
+    mount.innerHTML = `
+      <div class="loading-spinner">
+        <div class="spinner-icon"></div>
+        <span class="spinner-text">Loading publications...</span>
+      </div>
+    `;
+  }
+
   // Auto-resize iframe based on content
   const iframe = $('#bibbaseMount');
   if (iframe) {

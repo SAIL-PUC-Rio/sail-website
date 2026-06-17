@@ -1,0 +1,25 @@
+{
+    "servicesTitle": "Services",
+    "services": [
+     {
+      "title": "Education",
+      "description": "We provide expert education and mentorship in software and AI engineering, helping individuals and teams master complex technical concepts and build real-world skills.",
+      "image": "./images/services/puc_teaching.jpg"
+    },
+      {
+      "title": "Training",
+      "description": "We offer hands-on training sessions on technologies, practices, and methodologies, tailored to the needs of teams and organizations.",
+      "image": "./images/services/Training.jpeg"
+    },
+    {
+      "title": "Consulting",
+      "description": "We provide expert guidance on software and AI engineering challenges, helping organizations make better technical and strategic decisions.",
+      "image": "./images/services/Consulting.jpeg"
+    },
+    {
+      "title": "R&D Inovation Projects",
+      "description": "We collaborate with industry and academia on research and development initiatives that connect scientific rigor with real-world impact.",
+      "image": "./images/services/RD.jpeg"
+    }
+  ]
+}
