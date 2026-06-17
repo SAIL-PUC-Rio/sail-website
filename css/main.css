@@ -1,19 +1,22 @@
-/* 1. Layout Sections & Pages */
-@import 'hero_section_component.css';
-@import 'services_and_specialization.css';
-@import 'team_component.css';
-@import 'content_component.css';
-@import 'contributions_page.css';
-@import 'contributions_and_impact_component.css';
+/* 1. Components from the index.html styles */
+@import 'components/hero_section.css';
+@import 'components/services.css';
+@import 'components/team.css';
+@import 'components/content.css';
+@import 'components/news_card.css';
+@import 'components/contributions_and_impact.css';
+@import 'components/research_areas.css';
+@import 'components/footer.css';
 
-/* 2. Specific Pages & Cards */
-@import 'publications_page.css';
-@import 'honors_awards_page.css';
-@import 'news_card_component.css';
-
-/* 3. Footer */
-@import 'footer_component.css';
+/* 2. Page Specific styles */
+@import 'pages/publications_page.css';
+@import 'pages/honors_awards_page.css';
+@import 'pages/contributions_page.css';
 
 
-/* 4. Global foundation & variables */
-@import 'styles.css';
+/* 3. Global site styles */
+@import 'globals.css';
+
+
+/* 4. Mobile size adjustments */
+@import 'mobile_config.css';

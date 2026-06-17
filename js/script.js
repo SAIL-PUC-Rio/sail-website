@@ -2,9 +2,9 @@ const state = {
   data: null,
   heroIndex: 0,
   heroTimer: null,
-  specializationIndex: 0,
-  specializationGalleryIndex: 0,
-  specializationGalleryTimer: null,
+  research_area_Index: 0,
+  research_area_GalleryIndex: 0,
+  research_area_GalleryTimer: null,
   publicationFilter: '',
   bibbaseLoading: false
 };
@@ -18,7 +18,7 @@ async function init() {
     const [contributions_res, data_res, hero_res, honors_res, publications_res, research_areas_res, team_page_res ] = await Promise.all([
       fetch('./data/contributions.json'),
       fetch('./data/data.json'),
-      fetch('./data/hero.json'),
+      fetch('./data/hero_section.json'),
       fetch('./data/honors.json'),
       fetch('./data/publications.json'),
       fetch('./data/research_areas.json'),
@@ -133,7 +133,7 @@ function bindGlobalContent(data) {
 
 function initHomePage(data) {
   $('[data-bind="aboutTitle"]').textContent = data.about.title;
-  $('[data-bind="specializationTitle"]').textContent = data.specializationsTitle;
+  $('[data-bind="research_area_Title"]').textContent = data.research_areaTitle;
   $('[data-bind="servicesTitle"]').textContent = data.servicesTitle;
   $('[data-bind="coordinationTitle"]').textContent = data.coordinationTitle;
   $('#publicationsIntro').textContent = data.publicationsIntro || '';
@@ -150,7 +150,7 @@ function initHomePage(data) {
 
   renderHero(data.heroSlides);
   renderAbout(data.about);
-  renderSpecializations(data.specializations);
+  renderresearch_area(data.research_area);
   renderServices(data.services);
   renderContributionCategories(data.contributionsPage?.groups || []);
   renderCoordination(data.coordination);
@@ -398,46 +398,46 @@ function renderCoordination(coordination) {
   $('#coordinationDescription').innerHTML = descriptionContent;
 }
 
-function renderSpecializations(items) {
-  const tabsEl = $('#specializationTabs');
+function renderresearch_area(items) {
+  const tabsEl = $('#research_area_Tabs');
   tabsEl.innerHTML = '';
 
   items.forEach((item, index) => {
     const button = document.createElement('button');
-    button.className = 'specialization-tab';
+    button.className = 'research_areas-tab';
     button.type = 'button';
     button.role = 'tab';
     button.innerHTML = `<strong>${item.title}</strong><span aria-hidden="true">↗</span>`;
-    button.addEventListener('click', () => showSpecialization(index));
+    button.addEventListener('click', () => showresearch_area_(index));
     tabsEl.appendChild(button);
   });
 
-  showSpecialization(0);
+  showresearch_area_(0);
 }
 
-function showSpecialization(index) {
-  const item = state.data.specializations[index];
-  state.specializationIndex = index;
-  state.specializationGalleryIndex = 0;
+function showresearch_area_(index) {
+  const item = state.data.research_area[index];
+  state.research_area_Index = index;
+  state.research_area_GalleryIndex = 0;
 
-  $$('.specialization-tab').forEach((tab, tabIndex) => {
+  $$('.research_areas-tab').forEach((tab, tabIndex) => {
     tab.classList.toggle('is-active', tabIndex === index);
     tab.setAttribute('aria-selected', String(tabIndex === index));
   });
 
-  $('#specializationPanel').innerHTML = `
+  $('#research_area_Panel').innerHTML = `
     <div>
-      <h3 class="specialization-panel__title">${item.title}</h3>
-      <div class="specialization-panel__text rich-copy">${item.description}</div>
+      <h3 class="research_areas-panel__title">${item.title}</h3>
+      <div class="research_areas-panel__text rich-copy">${item.description}</div>
     </div>
     <div>
-      <div class="specialization-panel__gallery" id="specializationGallery"></div>
-      <div class="specialization-gallery-dots" id="specializationGalleryDots"></div>
+      <div class="research_areas-panel__gallery" id="research_area_Gallery"></div>
+      <div class="research_areas-gallery-dots" id="research_area_GalleryDots"></div>
     </div>
   `;
 
-  const gallery = $('#specializationGallery');
-  const dots = $('#specializationGalleryDots');
+  const gallery = $('#research_area_Gallery');
+  const dots = $('#research_area_GalleryDots');
   item.images.forEach((image, imageIndex) => {
     const img = document.createElement('img');
     img.src = image.src;
@@ -447,26 +447,26 @@ function showSpecialization(index) {
 
     const dot = document.createElement('button');
     dot.type = 'button';
-    dot.className = 'specialization-gallery-dot';
+    dot.className = 'research_areas-gallery-dot';
     dot.classList.toggle('is-active', imageIndex === 0);
     dot.setAttribute('aria-label', `View ${item.title} image ${imageIndex + 1}`);
-    dot.addEventListener('click', () => showSpecializationGallery(imageIndex));
+    dot.addEventListener('click', () => showresearch_area_Gallery(imageIndex));
     dots.appendChild(dot);
   });
 
-  clearInterval(state.specializationGalleryTimer);
+  clearInterval(state.research_area_GalleryTimer);
   if (item.images.length > 1) {
-    state.specializationGalleryTimer = setInterval(() => {
-      const next = (state.specializationGalleryIndex + 1) % item.images.length;
-      showSpecializationGallery(next);
+    state.research_area_GalleryTimer = setInterval(() => {
+      const next = (state.research_area_GalleryIndex + 1) % item.images.length;
+      showresearch_area_Gallery(next);
     }, 4200);
   }
 }
 
-function showSpecializationGallery(index) {
-  state.specializationGalleryIndex = index;
-  $$('#specializationGallery img').forEach((img, imgIndex) => img.classList.toggle('is-visible', imgIndex === index));
-  $$('#specializationGalleryDots .specialization-gallery-dot').forEach((dot, dotIndex) => dot.classList.toggle('is-active', dotIndex === index));
+function showresearch_area_Gallery(index) {
+  state.research_area_GalleryIndex = index;
+  $$('#research_area_Gallery img').forEach((img, imgIndex) => img.classList.toggle('is-visible', imgIndex === index));
+  $$('#research_area_GalleryDots .research_areas-gallery-dot').forEach((dot, dotIndex) => dot.classList.toggle('is-active', dotIndex === index));
 }
 
 function renderServices(items) {
@@ -810,7 +810,7 @@ function buildSearchIndex(data) {
   const items = [];
   data.navigation.forEach(item => items.push({ title: item.label, preview: item.url, url: item.url, searchable: `${item.label} ${item.url}`.toLowerCase() }));
   (data.services || []).forEach(item => items.push({ title: item.title, preview: item.description, url: 'index.html#services', searchable: `${item.title} ${item.description}`.toLowerCase() }));
-  (data.specializations || []).forEach(item => items.push({ title: item.title, preview: stripHtml(item.description).slice(0, 120), url: 'index.html#specializations', searchable: `${item.title} ${stripHtml(item.description)}`.toLowerCase() }));
+  (data.research_area || []).forEach(item => items.push({ title: item.title, preview: stripHtml(item.description).slice(0, 120), url: 'index.html#research_area', searchable: `${item.title} ${stripHtml(item.description)}`.toLowerCase() }));
   (data.publications || []).forEach(item => items.push({ title: item.title, preview: item.authors || '', url: item.url || 'publications.html', searchable: `${item.title} ${item.authors || ''} ${item.venue || ''}`.toLowerCase() }));
   (data.teamPage?.groups || []).forEach(group => {
     (group.members || []).forEach(member => items.push({

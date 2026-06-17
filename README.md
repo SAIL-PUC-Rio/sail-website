@@ -27,7 +27,7 @@ lab-website/
 
 Open `data/data.json`—this file controls everything:
 - Site title, description, and navigation tabs
-- Home page sections (about, research areas, specializations)
+- Home page sections (about, research areas, research_area)
 - Team member profiles and groupings
 - Publications, honors, and awards data
 - Contact information
@@ -74,7 +74,7 @@ The site is organized as separate HTML pages, each controlled by data in `data.j
   "navigation": [ ... ],          // Top navigation tabs
   "heroSlides": [ ... ],          // Home page banner carousel
   "about": { ... },               // About section
-  "specializations": { ... },     // Research areas with tabs
+  "research_area": { ... },     // Research areas with tabs
   "services": { ... },            // Services section
   "teamPage": { ... },            // Team member profiles and groups
   "contributionsPage": { ... },   // Contributions & impact
